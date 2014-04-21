@@ -1,0 +1,1960 @@
+# Logfile created on 2014-03-30 15:56:46 +0200 by logger.rb/31641
+I, [2014-03-30T15:56:46.921692 #29578]  INFO -- : Net::HTTP::Get: /
+D, [2014-03-30T15:56:46.921733 #29578] DEBUG -- : request-header: accept => */*
+D, [2014-03-30T15:56:46.921759 #29578] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/1.9.3p125 (http://github.com/sparklemotion/mechanize/)
+D, [2014-03-30T15:56:46.921792 #29578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-03-30T15:56:46.921816 #29578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-03-30T15:56:46.921843 #29578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-03-30T15:56:46.921865 #29578] DEBUG -- : request-header: host => www.dwd.de
+I, [2014-03-30T15:56:47.037756 #29578]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-03-30T15:56:47.037863 #29578] DEBUG -- : response-header: date => Sun, 30 Mar 2014 13:56:47 GMT
+D, [2014-03-30T15:56:47.037917 #29578] DEBUG -- : response-header: server => Apache
+D, [2014-03-30T15:56:47.037970 #29578] DEBUG -- : response-header: set-cookie => active-cluster=cluster1; path=/; domain=.dwd.de
+D, [2014-03-30T15:56:47.038023 #29578] DEBUG -- : response-header: last-modified => Sun, 30 Mar 2014 13:54:03 GMT
+D, [2014-03-30T15:56:47.038060 #29578] DEBUG -- : response-header: etag => "b4b251-d7fc-4f5d34487b530"
+D, [2014-03-30T15:56:47.038092 #29578] DEBUG -- : response-header: accept-ranges => bytes
+D, [2014-03-30T15:56:47.038125 #29578] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2014-03-30T15:56:47.038158 #29578] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-03-30T15:56:47.038190 #29578] DEBUG -- : response-header: content-length => 9437
+D, [2014-03-30T15:56:47.038223 #29578] DEBUG -- : response-header: keep-alive => timeout=15, max=100
+D, [2014-03-30T15:56:47.038261 #29578] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-03-30T15:56:47.038295 #29578] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2014-03-30T15:56:47.038443 #29578] DEBUG -- : Read 1050 bytes (1050 total)
+D, [2014-03-30T15:56:47.038516 #29578] DEBUG -- : Read 1452 bytes (2502 total)
+D, [2014-03-30T15:56:47.084356 #29578] DEBUG -- : Read 1452 bytes (3954 total)
+D, [2014-03-30T15:56:47.084729 #29578] DEBUG -- : Read 1452 bytes (5406 total)
+D, [2014-03-30T15:56:47.085287 #29578] DEBUG -- : Read 1452 bytes (6858 total)
+D, [2014-03-30T15:56:47.131286 #29578] DEBUG -- : Read 1452 bytes (8310 total)
+D, [2014-03-30T15:56:47.132154 #29578] DEBUG -- : Read 1127 bytes (9437 total)
+D, [2014-03-30T15:56:47.132324 #29578] DEBUG -- : gzip response
+D, [2014-03-30T15:56:47.140576 #29578] DEBUG -- : saved cookie: active-cluster=cluster1
+I, [2014-03-30T15:56:47.156208 #29578]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_windowLabel=dwdwww_main_book&T17500013121287044130563gsbDocumentPath=&switchLang=de&_pageLabel=dwdwww_start
+D, [2014-03-30T15:56:47.156293 #29578] DEBUG -- : request-header: accept => */*
+D, [2014-03-30T15:56:47.156319 #29578] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/1.9.3p125 (http://github.com/sparklemotion/mechanize/)
+D, [2014-03-30T15:56:47.156342 #29578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-03-30T15:56:47.156364 #29578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-03-30T15:56:47.156386 #29578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-03-30T15:56:47.156406 #29578] DEBUG -- : request-header: cookie => active-cluster=cluster1
+D, [2014-03-30T15:56:47.156427 #29578] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-03-30T15:56:47.156452 #29578] DEBUG -- : request-header: referer => http://www.dwd.de/
+I, [2014-03-30T15:56:47.702182 #29578]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-03-30T15:56:47.702315 #29578] DEBUG -- : response-header: date => Sun, 30 Mar 2014 13:56:47 GMT
+D, [2014-03-30T15:56:47.702374 #29578] DEBUG -- : response-header: server => Apache
+D, [2014-03-30T15:56:47.702417 #29578] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-03-30T15:56:47.702480 #29578] DEBUG -- : response-header: cache-control => no-cache="set-cookie"
+D, [2014-03-30T15:56:47.702518 #29578] DEBUG -- : response-header: set-cookie => JSESSIONID=csQDT4vfQC1TYRjWwTnQnPyVM1mZGG2RfBZ3hvyTLMFb2n2wmL6K!1279784771!616998249; path=/
+D, [2014-03-30T15:56:47.702554 #29578] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-03-30T15:56:47.702588 #29578] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-03-30T15:56:47.702624 #29578] DEBUG -- : response-header: keep-alive => timeout=15, max=99
+D, [2014-03-30T15:56:47.702657 #29578] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-03-30T15:56:47.702691 #29578] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-03-30T15:56:47.702732 #29578] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-03-30T15:56:47.702885 #29578] DEBUG -- : Read 1055 bytes (1055 total)
+D, [2014-03-30T15:56:47.702947 #29578] DEBUG -- : Read 286 bytes (1341 total)
+D, [2014-03-30T15:56:47.703011 #29578] DEBUG -- : Read 392 bytes (1733 total)
+D, [2014-03-30T15:56:47.703090 #29578] DEBUG -- : Read 235 bytes (1968 total)
+D, [2014-03-30T15:56:47.703147 #29578] DEBUG -- : Read 190 bytes (2158 total)
+D, [2014-03-30T15:56:47.703200 #29578] DEBUG -- : Read 312 bytes (2470 total)
+D, [2014-03-30T15:56:47.703252 #29578] DEBUG -- : Read 401 bytes (2871 total)
+D, [2014-03-30T15:56:47.703312 #29578] DEBUG -- : Read 418 bytes (3289 total)
+D, [2014-03-30T15:56:47.703369 #29578] DEBUG -- : Read 171 bytes (3460 total)
+D, [2014-03-30T15:56:47.703421 #29578] DEBUG -- : Read 243 bytes (3703 total)
+D, [2014-03-30T15:56:47.703472 #29578] DEBUG -- : Read 139 bytes (3842 total)
+D, [2014-03-30T15:56:47.703528 #29578] DEBUG -- : Read 108 bytes (3950 total)
+D, [2014-03-30T15:56:47.703580 #29578] DEBUG -- : Read 163 bytes (4113 total)
+D, [2014-03-30T15:56:47.703631 #29578] DEBUG -- : Read 118 bytes (4231 total)
+D, [2014-03-30T15:56:47.703683 #29578] DEBUG -- : Read 104 bytes (4335 total)
+D, [2014-03-30T15:56:47.703734 #29578] DEBUG -- : Read 175 bytes (4510 total)
+D, [2014-03-30T15:56:47.703785 #29578] DEBUG -- : Read 156 bytes (4666 total)
+D, [2014-03-30T15:56:47.703849 #29578] DEBUG -- : Read 337 bytes (5003 total)
+D, [2014-03-30T15:56:47.703908 #29578] DEBUG -- : Read 204 bytes (5207 total)
+D, [2014-03-30T15:56:47.703962 #29578] DEBUG -- : Read 1511 bytes (6718 total)
+D, [2014-03-30T15:56:47.704015 #29578] DEBUG -- : Read 11 bytes (6729 total)
+D, [2014-03-30T15:56:47.704069 #29578] DEBUG -- : Read 1447 bytes (8176 total)
+D, [2014-03-30T15:56:47.704240 #29578] DEBUG -- : Read 236 bytes (8412 total)
+D, [2014-03-30T15:56:47.704301 #29578] DEBUG -- : Read 137 bytes (8549 total)
+D, [2014-03-30T15:56:47.704369 #29578] DEBUG -- : Read 178 bytes (8727 total)
+D, [2014-03-30T15:56:47.704423 #29578] DEBUG -- : Read 166 bytes (8893 total)
+D, [2014-03-30T15:56:47.704477 #29578] DEBUG -- : Read 149 bytes (9042 total)
+D, [2014-03-30T15:56:47.704529 #29578] DEBUG -- : Read 135 bytes (9177 total)
+D, [2014-03-30T15:56:47.704591 #29578] DEBUG -- : Read 299 bytes (9476 total)
+D, [2014-03-30T15:56:47.704650 #29578] DEBUG -- : Read 101 bytes (9577 total)
+D, [2014-03-30T15:56:47.704721 #29578] DEBUG -- : Read 110 bytes (9687 total)
+D, [2014-03-30T15:56:47.704789 #29578] DEBUG -- : Read 143 bytes (9830 total)
+D, [2014-03-30T15:56:47.704850 #29578] DEBUG -- : Read 116 bytes (9946 total)
+D, [2014-03-30T15:56:47.704906 #29578] DEBUG -- : Read 112 bytes (10058 total)
+D, [2014-03-30T15:56:47.704970 #29578] DEBUG -- : Read 309 bytes (10367 total)
+D, [2014-03-30T15:56:47.705024 #29578] DEBUG -- : Read 293 bytes (10660 total)
+D, [2014-03-30T15:56:47.705093 #29578] DEBUG -- : Read 252 bytes (10912 total)
+D, [2014-03-30T15:56:47.705140 #29578] DEBUG -- : Read 127 bytes (11039 total)
+D, [2014-03-30T15:56:47.705575 #29578] DEBUG -- : Read 10 bytes (11049 total)
+D, [2014-03-30T15:56:47.705722 #29578] DEBUG -- : gzip response
+D, [2014-03-30T15:56:47.710937 #29578] DEBUG -- : saved cookie: JSESSIONID=csQDT4vfQC1TYRjWwTnQnPyVM1mZGG2RfBZ3hvyTLMFb2n2wmL6K!1279784771!616998249
+I, [2014-03-30T15:56:47.715728 #29578]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop;jsessionid=csQDT4vfQC1TYRjWwTnQnPyVM1mZGG2RfBZ3hvyTLMFb2n2wmL6K!1279784771!616998249?_nfpb=true&_pageLabel=dwdwww_spezielle_nutzer&_nfls=false
+D, [2014-03-30T15:56:47.715778 #29578] DEBUG -- : request-header: accept => */*
+D, [2014-03-30T15:56:47.715816 #29578] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/1.9.3p125 (http://github.com/sparklemotion/mechanize/)
+D, [2014-03-30T15:56:47.715839 #29578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-03-30T15:56:47.715862 #29578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-03-30T15:56:47.715885 #29578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-03-30T15:56:47.715908 #29578] DEBUG -- : request-header: cookie => JSESSIONID=csQDT4vfQC1TYRjWwTnQnPyVM1mZGG2RfBZ3hvyTLMFb2n2wmL6K!1279784771!616998249; active-cluster=cluster1
+D, [2014-03-30T15:56:47.715930 #29578] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-03-30T15:56:47.715957 #29578] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_windowLabel=dwdwww_main_book&T17500013121287044130563gsbDocumentPath=&switchLang=de&_pageLabel=dwdwww_start
+I, [2014-03-30T15:56:48.009489 #29578]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-03-30T15:56:48.009595 #29578] DEBUG -- : response-header: date => Sun, 30 Mar 2014 13:56:48 GMT
+D, [2014-03-30T15:56:48.009654 #29578] DEBUG -- : response-header: server => Apache
+D, [2014-03-30T15:56:48.009703 #29578] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-03-30T15:56:48.009743 #29578] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-03-30T15:56:48.009778 #29578] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-03-30T15:56:48.009811 #29578] DEBUG -- : response-header: keep-alive => timeout=15, max=98
+D, [2014-03-30T15:56:48.009845 #29578] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-03-30T15:56:48.009879 #29578] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-03-30T15:56:48.009912 #29578] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-03-30T15:56:48.010004 #29578] DEBUG -- : Read 1216 bytes (1216 total)
+D, [2014-03-30T15:56:48.010061 #29578] DEBUG -- : Read 75 bytes (1291 total)
+D, [2014-03-30T15:56:48.010115 #29578] DEBUG -- : Read 576 bytes (1867 total)
+D, [2014-03-30T15:56:48.010168 #29578] DEBUG -- : Read 8 bytes (1875 total)
+D, [2014-03-30T15:56:48.010220 #29578] DEBUG -- : Read 503 bytes (2378 total)
+D, [2014-03-30T15:56:48.010271 #29578] DEBUG -- : Read 233 bytes (2611 total)
+D, [2014-03-30T15:56:48.010340 #29578] DEBUG -- : Read 429 bytes (3040 total)
+D, [2014-03-30T15:56:48.010393 #29578] DEBUG -- : Read 8 bytes (3048 total)
+D, [2014-03-30T15:56:48.010444 #29578] DEBUG -- : Read 136 bytes (3184 total)
+D, [2014-03-30T15:56:48.010497 #29578] DEBUG -- : Read 55 bytes (3239 total)
+D, [2014-03-30T15:56:48.010550 #29578] DEBUG -- : Read 580 bytes (3819 total)
+D, [2014-03-30T15:56:48.010603 #29578] DEBUG -- : Read 774 bytes (4593 total)
+D, [2014-03-30T15:56:48.010654 #29578] DEBUG -- : Read 226 bytes (4819 total)
+D, [2014-03-30T15:56:48.010705 #29578] DEBUG -- : Read 352 bytes (5171 total)
+D, [2014-03-30T15:56:48.010756 #29578] DEBUG -- : Read 243 bytes (5414 total)
+D, [2014-03-30T15:56:48.010819 #29578] DEBUG -- : Read 254 bytes (5668 total)
+D, [2014-03-30T15:56:48.010881 #29578] DEBUG -- : Read 129 bytes (5797 total)
+D, [2014-03-30T15:56:48.010933 #29578] DEBUG -- : Read 157 bytes (5954 total)
+D, [2014-03-30T15:56:48.010984 #29578] DEBUG -- : Read 122 bytes (6076 total)
+D, [2014-03-30T15:56:48.011045 #29578] DEBUG -- : Read 142 bytes (6218 total)
+D, [2014-03-30T15:56:48.011096 #29578] DEBUG -- : Read 125 bytes (6343 total)
+D, [2014-03-30T15:56:48.011149 #29578] DEBUG -- : Read 164 bytes (6507 total)
+D, [2014-03-30T15:56:48.011228 #29578] DEBUG -- : Read 267 bytes (6774 total)
+D, [2014-03-30T15:56:48.011676 #29578] DEBUG -- : Read 349 bytes (7123 total)
+D, [2014-03-30T15:56:48.011748 #29578] DEBUG -- : Read 10 bytes (7133 total)
+D, [2014-03-30T15:56:48.011880 #29578] DEBUG -- : gzip response
+I, [2014-03-30T15:56:48.019595 #29578]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt&activePage=&_nfls=false
+D, [2014-03-30T15:56:48.019649 #29578] DEBUG -- : request-header: accept => */*
+D, [2014-03-30T15:56:48.019683 #29578] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/1.9.3p125 (http://github.com/sparklemotion/mechanize/)
+D, [2014-03-30T15:56:48.019714 #29578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-03-30T15:56:48.019744 #29578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-03-30T15:56:48.019775 #29578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-03-30T15:56:48.019806 #29578] DEBUG -- : request-header: cookie => JSESSIONID=csQDT4vfQC1TYRjWwTnQnPyVM1mZGG2RfBZ3hvyTLMFb2n2wmL6K!1279784771!616998249; active-cluster=cluster1
+D, [2014-03-30T15:56:48.019836 #29578] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-03-30T15:56:48.019873 #29578] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop;jsessionid=csQDT4vfQC1TYRjWwTnQnPyVM1mZGG2RfBZ3hvyTLMFb2n2wmL6K!1279784771!616998249?_nfpb=true&_pageLabel=dwdwww_spezielle_nutzer&_nfls=false
+I, [2014-03-30T15:56:48.221500 #29578]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-03-30T15:56:48.221591 #29578] DEBUG -- : response-header: date => Sun, 30 Mar 2014 13:56:48 GMT
+D, [2014-03-30T15:56:48.221631 #29578] DEBUG -- : response-header: server => Apache
+D, [2014-03-30T15:56:48.221667 #29578] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-03-30T15:56:48.221702 #29578] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-03-30T15:56:48.221743 #29578] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-03-30T15:56:48.221783 #29578] DEBUG -- : response-header: keep-alive => timeout=15, max=97
+D, [2014-03-30T15:56:48.221817 #29578] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-03-30T15:56:48.221851 #29578] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-03-30T15:56:48.221886 #29578] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-03-30T15:56:48.221971 #29578] DEBUG -- : Read 630 bytes (630 total)
+D, [2014-03-30T15:56:48.222042 #29578] DEBUG -- : Read 670 bytes (1300 total)
+D, [2014-03-30T15:56:48.222105 #29578] DEBUG -- : Read 247 bytes (1547 total)
+D, [2014-03-30T15:56:48.222469 #29578] DEBUG -- : Read 399 bytes (1946 total)
+D, [2014-03-30T15:56:48.223118 #29578] DEBUG -- : Read 632 bytes (2578 total)
+D, [2014-03-30T15:56:48.223315 #29578] DEBUG -- : Read 356 bytes (2934 total)
+D, [2014-03-30T15:56:48.224380 #29578] DEBUG -- : Read 959 bytes (3893 total)
+D, [2014-03-30T15:56:48.225222 #29578] DEBUG -- : Read 324 bytes (4217 total)
+D, [2014-03-30T15:56:48.226307 #29578] DEBUG -- : Read 189 bytes (4406 total)
+D, [2014-03-30T15:56:48.226390 #29578] DEBUG -- : Read 144 bytes (4550 total)
+D, [2014-03-30T15:56:48.226444 #29578] DEBUG -- : Read 94 bytes (4644 total)
+D, [2014-03-30T15:56:48.226496 #29578] DEBUG -- : Read 241 bytes (4885 total)
+D, [2014-03-30T15:56:48.226644 #29578] DEBUG -- : Read 344 bytes (5229 total)
+D, [2014-03-30T15:56:48.226700 #29578] DEBUG -- : Read 17 bytes (5246 total)
+D, [2014-03-30T15:56:48.226750 #29578] DEBUG -- : Read 10 bytes (5256 total)
+D, [2014-03-30T15:56:48.226870 #29578] DEBUG -- : gzip response
+I, [2014-03-30T15:56:48.232635 #29578]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&activePage=&_nfls=false
+D, [2014-03-30T15:56:48.232685 #29578] DEBUG -- : request-header: accept => */*
+D, [2014-03-30T15:56:48.232718 #29578] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/1.9.3p125 (http://github.com/sparklemotion/mechanize/)
+D, [2014-03-30T15:56:48.232772 #29578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-03-30T15:56:48.232805 #29578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-03-30T15:56:48.232840 #29578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-03-30T15:56:48.232870 #29578] DEBUG -- : request-header: cookie => JSESSIONID=csQDT4vfQC1TYRjWwTnQnPyVM1mZGG2RfBZ3hvyTLMFb2n2wmL6K!1279784771!616998249; active-cluster=cluster1
+D, [2014-03-30T15:56:48.232900 #29578] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-03-30T15:56:48.232934 #29578] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt&activePage=&_nfls=false
+I, [2014-03-30T15:56:48.625328 #29578]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-03-30T15:56:48.625419 #29578] DEBUG -- : response-header: date => Sun, 30 Mar 2014 13:56:48 GMT
+D, [2014-03-30T15:56:48.625458 #29578] DEBUG -- : response-header: server => Apache
+D, [2014-03-30T15:56:48.625493 #29578] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-03-30T15:56:48.625528 #29578] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-03-30T15:56:48.625563 #29578] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-03-30T15:56:48.625598 #29578] DEBUG -- : response-header: keep-alive => timeout=15, max=96
+D, [2014-03-30T15:56:48.625632 #29578] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-03-30T15:56:48.625665 #29578] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-03-30T15:56:48.625698 #29578] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-03-30T15:56:48.625783 #29578] DEBUG -- : Read 1054 bytes (1054 total)
+D, [2014-03-30T15:56:48.625839 #29578] DEBUG -- : Read 248 bytes (1302 total)
+D, [2014-03-30T15:56:48.625894 #29578] DEBUG -- : Read 482 bytes (1784 total)
+D, [2014-03-30T15:56:48.625946 #29578] DEBUG -- : Read 156 bytes (1940 total)
+D, [2014-03-30T15:56:48.626009 #29578] DEBUG -- : Read 448 bytes (2388 total)
+D, [2014-03-30T15:56:48.626063 #29578] DEBUG -- : Read 212 bytes (2600 total)
+D, [2014-03-30T15:56:48.626114 #29578] DEBUG -- : Read 507 bytes (3107 total)
+D, [2014-03-30T15:56:48.626163 #29578] DEBUG -- : Read 9 bytes (3116 total)
+D, [2014-03-30T15:56:48.626226 #29578] DEBUG -- : Read 144 bytes (3260 total)
+D, [2014-03-30T15:56:48.626279 #29578] DEBUG -- : Read 288 bytes (3548 total)
+D, [2014-03-30T15:56:48.626331 #29578] DEBUG -- : Read 250 bytes (3798 total)
+D, [2014-03-30T15:56:48.626794 #29578] DEBUG -- : Read 138 bytes (3936 total)
+D, [2014-03-30T15:56:48.626880 #29578] DEBUG -- : Read 156 bytes (4092 total)
+D, [2014-03-30T15:56:48.626938 #29578] DEBUG -- : Read 69 bytes (4161 total)
+D, [2014-03-30T15:56:48.626989 #29578] DEBUG -- : Read 93 bytes (4254 total)
+D, [2014-03-30T15:56:48.627040 #29578] DEBUG -- : Read 92 bytes (4346 total)
+D, [2014-03-30T15:56:48.627091 #29578] DEBUG -- : Read 85 bytes (4431 total)
+D, [2014-03-30T15:56:48.627151 #29578] DEBUG -- : Read 130 bytes (4561 total)
+D, [2014-03-30T15:56:48.627205 #29578] DEBUG -- : Read 291 bytes (4852 total)
+D, [2014-03-30T15:56:48.628757 #29578] DEBUG -- : Read 70 bytes (4922 total)
+D, [2014-03-30T15:56:48.628898 #29578] DEBUG -- : Read 75 bytes (4997 total)
+D, [2014-03-30T15:56:48.628976 #29578] DEBUG -- : Read 84 bytes (5081 total)
+D, [2014-03-30T15:56:48.629050 #29578] DEBUG -- : Read 154 bytes (5235 total)
+D, [2014-03-30T15:56:48.629103 #29578] DEBUG -- : Read 102 bytes (5337 total)
+D, [2014-03-30T15:56:48.629155 #29578] DEBUG -- : Read 132 bytes (5469 total)
+D, [2014-03-30T15:56:48.629207 #29578] DEBUG -- : Read 133 bytes (5602 total)
+D, [2014-03-30T15:56:48.629258 #29578] DEBUG -- : Read 119 bytes (5721 total)
+D, [2014-03-30T15:56:48.629405 #29578] DEBUG -- : Read 65 bytes (5786 total)
+D, [2014-03-30T15:56:48.629462 #29578] DEBUG -- : Read 77 bytes (5863 total)
+D, [2014-03-30T15:56:48.629538 #29578] DEBUG -- : Read 97 bytes (5960 total)
+D, [2014-03-30T15:56:48.629603 #29578] DEBUG -- : Read 184 bytes (6144 total)
+D, [2014-03-30T15:56:48.629660 #29578] DEBUG -- : Read 530 bytes (6674 total)
+D, [2014-03-30T15:56:48.629712 #29578] DEBUG -- : Read 184 bytes (6858 total)
+D, [2014-03-30T15:56:48.629763 #29578] DEBUG -- : Read 25 bytes (6883 total)
+D, [2014-03-30T15:56:48.629812 #29578] DEBUG -- : Read 10 bytes (6893 total)
+D, [2014-03-30T15:56:48.629940 #29578] DEBUG -- : gzip response
+I, [2014-03-30T15:56:48.638955 #29578]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Content%2FSchifffahrt%2FSeewetter%2FSeewetter__Mittelmeer__teaser.html&_state=maximized&_windowLabel=T18605818401151909357330&lastPageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter
+D, [2014-03-30T15:56:48.638998 #29578] DEBUG -- : request-header: accept => */*
+D, [2014-03-30T15:56:48.639029 #29578] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/1.9.3p125 (http://github.com/sparklemotion/mechanize/)
+D, [2014-03-30T15:56:48.639056 #29578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-03-30T15:56:48.639081 #29578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-03-30T15:56:48.639106 #29578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-03-30T15:56:48.639130 #29578] DEBUG -- : request-header: cookie => JSESSIONID=csQDT4vfQC1TYRjWwTnQnPyVM1mZGG2RfBZ3hvyTLMFb2n2wmL6K!1279784771!616998249; active-cluster=cluster1
+D, [2014-03-30T15:56:48.639155 #29578] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-03-30T15:56:48.639188 #29578] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&activePage=&_nfls=false
+I, [2014-03-30T15:56:49.546169 #29578]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-03-30T15:56:49.546271 #29578] DEBUG -- : response-header: date => Sun, 30 Mar 2014 13:56:49 GMT
+D, [2014-03-30T15:56:49.546306 #29578] DEBUG -- : response-header: server => Apache
+D, [2014-03-30T15:56:49.546338 #29578] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-03-30T15:56:49.546371 #29578] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-03-30T15:56:49.546402 #29578] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-03-30T15:56:49.546434 #29578] DEBUG -- : response-header: keep-alive => timeout=15, max=95
+D, [2014-03-30T15:56:49.546465 #29578] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-03-30T15:56:49.546494 #29578] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-03-30T15:56:49.546534 #29578] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-03-30T15:56:49.546625 #29578] DEBUG -- : Read 1271 bytes (1271 total)
+D, [2014-03-30T15:56:49.546679 #29578] DEBUG -- : Read 10 bytes (1281 total)
+D, [2014-03-30T15:56:49.546734 #29578] DEBUG -- : Read 644 bytes (1925 total)
+D, [2014-03-30T15:56:49.546785 #29578] DEBUG -- : Read 9 bytes (1934 total)
+D, [2014-03-30T15:56:49.546835 #29578] DEBUG -- : Read 628 bytes (2562 total)
+D, [2014-03-30T15:56:49.546881 #29578] DEBUG -- : Read 70 bytes (2632 total)
+D, [2014-03-30T15:56:49.546950 #29578] DEBUG -- : Read 790 bytes (3422 total)
+D, [2014-03-30T15:56:49.546999 #29578] DEBUG -- : Read 636 bytes (4058 total)
+D, [2014-03-30T15:56:49.547049 #29578] DEBUG -- : Read 284 bytes (4342 total)
+D, [2014-03-30T15:56:49.547095 #29578] DEBUG -- : Read 268 bytes (4610 total)
+D, [2014-03-30T15:56:49.547145 #29578] DEBUG -- : Read 94 bytes (4704 total)
+D, [2014-03-30T15:56:49.547190 #29578] DEBUG -- : Read 10 bytes (4714 total)
+D, [2014-03-30T15:56:49.547295 #29578] DEBUG -- : gzip response
+I, [2014-03-30T15:56:49.552717 #29578]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Navigation%2FSchifffahrt%2FSeewetter%2FSeewetterbericht__24__strecke__node.html%3F__nnn%3Dtrue
+D, [2014-03-30T15:56:49.552787 #29578] DEBUG -- : request-header: accept => */*
+D, [2014-03-30T15:56:49.552818 #29578] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/1.9.3p125 (http://github.com/sparklemotion/mechanize/)
+D, [2014-03-30T15:56:49.552846 #29578] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-03-30T15:56:49.552873 #29578] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-03-30T15:56:49.552899 #29578] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-03-30T15:56:49.552926 #29578] DEBUG -- : request-header: cookie => JSESSIONID=csQDT4vfQC1TYRjWwTnQnPyVM1mZGG2RfBZ3hvyTLMFb2n2wmL6K!1279784771!616998249; active-cluster=cluster1
+D, [2014-03-30T15:56:49.552955 #29578] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-03-30T15:56:49.552987 #29578] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Content%2FSchifffahrt%2FSeewetter%2FSeewetter__Mittelmeer__teaser.html&_state=maximized&_windowLabel=T18605818401151909357330&lastPageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter
+I, [2014-03-30T15:56:49.956818 #29578]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-03-30T15:56:49.956926 #29578] DEBUG -- : response-header: date => Sun, 30 Mar 2014 13:56:50 GMT
+D, [2014-03-30T15:56:49.956969 #29578] DEBUG -- : response-header: server => Apache
+D, [2014-03-30T15:56:49.957006 #29578] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-03-30T15:56:49.957044 #29578] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-03-30T15:56:49.957081 #29578] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-03-30T15:56:49.957119 #29578] DEBUG -- : response-header: keep-alive => timeout=15, max=94
+D, [2014-03-30T15:56:49.957162 #29578] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-03-30T15:56:49.957206 #29578] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-03-30T15:56:49.957244 #29578] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-03-30T15:56:49.957337 #29578] DEBUG -- : Read 1054 bytes (1054 total)
+D, [2014-03-30T15:56:49.957398 #29578] DEBUG -- : Read 248 bytes (1302 total)
+D, [2014-03-30T15:56:49.957455 #29578] DEBUG -- : Read 521 bytes (1823 total)
+D, [2014-03-30T15:56:49.957509 #29578] DEBUG -- : Read 165 bytes (1988 total)
+D, [2014-03-30T15:56:49.957582 #29578] DEBUG -- : Read 283 bytes (2271 total)
+D, [2014-03-30T15:56:49.957638 #29578] DEBUG -- : Read 375 bytes (2646 total)
+D, [2014-03-30T15:56:49.957693 #29578] DEBUG -- : Read 76 bytes (2722 total)
+D, [2014-03-30T15:56:49.957750 #29578] DEBUG -- : Read 840 bytes (3562 total)
+D, [2014-03-30T15:56:49.957805 #29578] DEBUG -- : Read 12 bytes (3574 total)
+D, [2014-03-30T15:56:49.957860 #29578] DEBUG -- : Read 643 bytes (4217 total)
+D, [2014-03-30T15:56:49.957914 #29578] DEBUG -- : Read 207 bytes (4424 total)
+D, [2014-03-30T15:56:49.957969 #29578] DEBUG -- : Read 108 bytes (4532 total)
+D, [2014-03-30T15:56:49.958022 #29578] DEBUG -- : Read 32 bytes (4564 total)
+D, [2014-03-30T15:56:49.958075 #29578] DEBUG -- : Read 255 bytes (4819 total)
+D, [2014-03-30T15:56:49.958129 #29578] DEBUG -- : Read 46 bytes (4865 total)
+D, [2014-03-30T15:56:49.958182 #29578] DEBUG -- : Read 257 bytes (5122 total)
+D, [2014-03-30T15:56:49.958246 #29578] DEBUG -- : Read 26 bytes (5148 total)
+D, [2014-03-30T15:56:49.958300 #29578] DEBUG -- : Read 231 bytes (5379 total)
+D, [2014-03-30T15:56:49.958354 #29578] DEBUG -- : Read 50 bytes (5429 total)
+D, [2014-03-30T15:56:49.958407 #29578] DEBUG -- : Read 72 bytes (5501 total)
+D, [2014-03-30T15:56:49.958460 #29578] DEBUG -- : Read 227 bytes (5728 total)
+D, [2014-03-30T15:56:49.958515 #29578] DEBUG -- : Read 69 bytes (5797 total)
+D, [2014-03-30T15:56:49.958595 #29578] DEBUG -- : Read 242 bytes (6039 total)
+D, [2014-03-30T15:56:49.958651 #29578] DEBUG -- : Read 96 bytes (6135 total)
+D, [2014-03-30T15:56:49.958717 #29578] DEBUG -- : Read 203 bytes (6338 total)
+D, [2014-03-30T15:56:49.958774 #29578] DEBUG -- : Read 95 bytes (6433 total)
+D, [2014-03-30T15:56:49.958828 #29578] DEBUG -- : Read 144 bytes (6577 total)
+D, [2014-03-30T15:56:49.958881 #29578] DEBUG -- : Read 100 bytes (6677 total)
+D, [2014-03-30T15:56:49.958935 #29578] DEBUG -- : Read 194 bytes (6871 total)
+D, [2014-03-30T15:56:49.958987 #29578] DEBUG -- : Read 62 bytes (6933 total)
+D, [2014-03-30T15:56:49.959040 #29578] DEBUG -- : Read 57 bytes (6990 total)
+D, [2014-03-30T15:56:49.959094 #29578] DEBUG -- : Read 212 bytes (7202 total)
+D, [2014-03-30T15:56:49.959419 #29578] DEBUG -- : Read 65 bytes (7267 total)
+D, [2014-03-30T15:56:49.959500 #29578] DEBUG -- : Read 208 bytes (7475 total)
+D, [2014-03-30T15:56:49.959571 #29578] DEBUG -- : Read 81 bytes (7556 total)
+D, [2014-03-30T15:56:49.959628 #29578] DEBUG -- : Read 205 bytes (7761 total)
+D, [2014-03-30T15:56:49.959683 #29578] DEBUG -- : Read 76 bytes (7837 total)
+D, [2014-03-30T15:56:49.959748 #29578] DEBUG -- : Read 205 bytes (8042 total)
+D, [2014-03-30T15:56:49.959802 #29578] DEBUG -- : Read 93 bytes (8135 total)
+D, [2014-03-30T15:56:49.959870 #29578] DEBUG -- : Read 587 bytes (8722 total)
+D, [2014-03-30T15:56:49.960605 #29578] DEBUG -- : Read 439 bytes (9161 total)
+D, [2014-03-30T15:56:49.960716 #29578] DEBUG -- : Read 251 bytes (9412 total)
+D, [2014-03-30T15:56:49.960801 #29578] DEBUG -- : Read 116 bytes (9528 total)
+D, [2014-03-30T15:56:49.960856 #29578] DEBUG -- : Read 10 bytes (9538 total)
+D, [2014-03-30T15:56:49.960982 #29578] DEBUG -- : gzip response
+I, [2014-04-21T13:57:37.094763 #70675]  INFO -- : Net::HTTP::Get: /
+D, [2014-04-21T13:57:37.095118 #70675] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T13:57:37.095165 #70675] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T13:57:37.095189 #70675] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T13:57:37.095211 #70675] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T13:57:37.095232 #70675] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T13:57:37.095252 #70675] DEBUG -- : request-header: host => www.dwd.de
+I, [2014-04-21T13:57:37.415911 #70675]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T13:57:37.415990 #70675] DEBUG -- : response-header: date => Mon, 21 Apr 2014 11:57:37 GMT
+D, [2014-04-21T13:57:37.416014 #70675] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T13:57:37.416034 #70675] DEBUG -- : response-header: set-cookie => active-cluster=cluster1; path=/; domain=.dwd.de
+D, [2014-04-21T13:57:37.416055 #70675] DEBUG -- : response-header: last-modified => Mon, 21 Apr 2014 11:57:02 GMT
+D, [2014-04-21T13:57:37.416075 #70675] DEBUG -- : response-header: etag => "b4b251-d8df-4f78c328d3a61"
+D, [2014-04-21T13:57:37.416095 #70675] DEBUG -- : response-header: accept-ranges => bytes
+D, [2014-04-21T13:57:37.416114 #70675] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2014-04-21T13:57:37.416136 #70675] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T13:57:37.416156 #70675] DEBUG -- : response-header: content-length => 9668
+D, [2014-04-21T13:57:37.416175 #70675] DEBUG -- : response-header: keep-alive => timeout=15, max=100
+D, [2014-04-21T13:57:37.416195 #70675] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T13:57:37.416214 #70675] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2014-04-21T13:57:37.416326 #70675] DEBUG -- : Read 1050 bytes (1050 total)
+D, [2014-04-21T13:57:37.416374 #70675] DEBUG -- : Read 1452 bytes (2502 total)
+D, [2014-04-21T13:57:37.523889 #70675] DEBUG -- : Read 1452 bytes (3954 total)
+D, [2014-04-21T13:57:37.529633 #70675] DEBUG -- : Read 1452 bytes (5406 total)
+D, [2014-04-21T13:57:37.532627 #70675] DEBUG -- : Read 1452 bytes (6858 total)
+D, [2014-04-21T13:57:37.731157 #70675] DEBUG -- : Read 1452 bytes (8310 total)
+D, [2014-04-21T13:57:37.980216 #70675] DEBUG -- : Read 1358 bytes (9668 total)
+D, [2014-04-21T13:57:37.980423 #70675] DEBUG -- : gzip response
+D, [2014-04-21T13:57:37.992509 #70675] DEBUG -- : saved cookie: active-cluster=cluster1
+I, [2014-04-21T13:57:38.000227 #70675]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_windowLabel=dwdwww_main_book&T17500013121287044130563gsbDocumentPath=&switchLang=de&_pageLabel=dwdwww_start
+D, [2014-04-21T13:57:38.000297 #70675] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T13:57:38.000324 #70675] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T13:57:38.000346 #70675] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T13:57:38.000372 #70675] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T13:57:38.000393 #70675] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T13:57:38.000415 #70675] DEBUG -- : request-header: cookie => active-cluster=cluster1
+D, [2014-04-21T13:57:38.000435 #70675] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T13:57:38.000461 #70675] DEBUG -- : request-header: referer => http://www.dwd.de/
+I, [2014-04-21T13:57:38.561108 #70675]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T13:57:38.561196 #70675] DEBUG -- : response-header: date => Mon, 21 Apr 2014 11:57:38 GMT
+D, [2014-04-21T13:57:38.561257 #70675] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T13:57:38.561278 #70675] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T13:57:38.561299 #70675] DEBUG -- : response-header: cache-control => no-cache="set-cookie"
+D, [2014-04-21T13:57:38.561319 #70675] DEBUG -- : response-header: set-cookie => JSESSIONID=6p6BTVHSTBB1WjWLdy6L8vdrbDNd0VdsNwvhqD5cSc4lhLJ2SSFg!-1070566653!226924259; path=/
+D, [2014-04-21T13:57:38.561345 #70675] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T13:57:38.561365 #70675] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T13:57:38.561384 #70675] DEBUG -- : response-header: keep-alive => timeout=15, max=99
+D, [2014-04-21T13:57:38.561404 #70675] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T13:57:38.561423 #70675] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T13:57:38.561442 #70675] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T13:57:38.561553 #70675] DEBUG -- : Read 638 bytes (638 total)
+D, [2014-04-21T13:57:38.755576 #70675] DEBUG -- : Read 447 bytes (1085 total)
+D, [2014-04-21T13:57:38.755686 #70675] DEBUG -- : Read 288 bytes (1373 total)
+D, [2014-04-21T13:57:38.755730 #70675] DEBUG -- : Read 393 bytes (1766 total)
+D, [2014-04-21T13:57:38.755790 #70675] DEBUG -- : Read 227 bytes (1993 total)
+D, [2014-04-21T13:57:38.755825 #70675] DEBUG -- : Read 42 bytes (2035 total)
+D, [2014-04-21T13:57:38.755858 #70675] DEBUG -- : Read 17 bytes (2052 total)
+D, [2014-04-21T13:57:38.760178 #70675] DEBUG -- : Read 292 bytes (2344 total)
+D, [2014-04-21T13:57:38.760288 #70675] DEBUG -- : Read 159 bytes (2503 total)
+D, [2014-04-21T13:57:38.760344 #70675] DEBUG -- : Read 405 bytes (2908 total)
+D, [2014-04-21T13:57:38.760402 #70675] DEBUG -- : Read 418 bytes (3326 total)
+D, [2014-04-21T13:57:38.760464 #70675] DEBUG -- : Read 152 bytes (3478 total)
+D, [2014-04-21T13:57:38.764060 #70675] DEBUG -- : Read 19 bytes (3497 total)
+D, [2014-04-21T13:57:38.764180 #70675] DEBUG -- : Read 243 bytes (3740 total)
+D, [2014-04-21T13:57:38.764217 #70675] DEBUG -- : Read 139 bytes (3879 total)
+D, [2014-04-21T13:57:38.764251 #70675] DEBUG -- : Read 108 bytes (3987 total)
+D, [2014-04-21T13:57:38.764284 #70675] DEBUG -- : Read 163 bytes (4150 total)
+D, [2014-04-21T13:57:38.764318 #70675] DEBUG -- : Read 118 bytes (4268 total)
+D, [2014-04-21T13:57:38.764376 #70675] DEBUG -- : Read 104 bytes (4372 total)
+D, [2014-04-21T13:57:38.764409 #70675] DEBUG -- : Read 175 bytes (4547 total)
+D, [2014-04-21T13:57:38.764441 #70675] DEBUG -- : Read 156 bytes (4703 total)
+D, [2014-04-21T13:57:38.764473 #70675] DEBUG -- : Read 172 bytes (4875 total)
+D, [2014-04-21T13:57:38.764973 #70675] DEBUG -- : Read 165 bytes (5040 total)
+D, [2014-04-21T13:57:38.765041 #70675] DEBUG -- : Read 202 bytes (5242 total)
+D, [2014-04-21T13:57:38.765078 #70675] DEBUG -- : Read 1072 bytes (6314 total)
+D, [2014-04-21T13:57:38.765999 #70675] DEBUG -- : Read 626 bytes (6940 total)
+D, [2014-04-21T13:57:38.766044 #70675] DEBUG -- : Read 13 bytes (6953 total)
+D, [2014-04-21T13:57:38.766083 #70675] DEBUG -- : Read 801 bytes (7754 total)
+D, [2014-04-21T13:57:38.766685 #70675] DEBUG -- : Read 865 bytes (8619 total)
+D, [2014-04-21T13:57:38.766731 #70675] DEBUG -- : Read 11 bytes (8630 total)
+D, [2014-04-21T13:57:38.766768 #70675] DEBUG -- : Read 37 bytes (8667 total)
+D, [2014-04-21T13:57:38.766801 #70675] DEBUG -- : Read 137 bytes (8804 total)
+D, [2014-04-21T13:57:38.766835 #70675] DEBUG -- : Read 181 bytes (8985 total)
+D, [2014-04-21T13:57:38.766895 #70675] DEBUG -- : Read 163 bytes (9148 total)
+D, [2014-04-21T13:57:38.766927 #70675] DEBUG -- : Read 23 bytes (9171 total)
+D, [2014-04-21T13:57:38.771440 #70675] DEBUG -- : Read 131 bytes (9302 total)
+D, [2014-04-21T13:57:38.771545 #70675] DEBUG -- : Read 134 bytes (9436 total)
+D, [2014-04-21T13:57:38.771582 #70675] DEBUG -- : Read 306 bytes (9742 total)
+D, [2014-04-21T13:57:38.771616 #70675] DEBUG -- : Read 101 bytes (9843 total)
+D, [2014-04-21T13:57:38.771653 #70675] DEBUG -- : Read 109 bytes (9952 total)
+D, [2014-04-21T13:57:38.771687 #70675] DEBUG -- : Read 142 bytes (10094 total)
+D, [2014-04-21T13:57:38.771719 #70675] DEBUG -- : Read 117 bytes (10211 total)
+D, [2014-04-21T13:57:38.771774 #70675] DEBUG -- : Read 112 bytes (10323 total)
+D, [2014-04-21T13:57:38.771806 #70675] DEBUG -- : Read 250 bytes (10573 total)
+D, [2014-04-21T13:57:38.775497 #70675] DEBUG -- : Read 75 bytes (10648 total)
+D, [2014-04-21T13:57:38.775617 #70675] DEBUG -- : Read 357 bytes (11005 total)
+D, [2014-04-21T13:57:38.775677 #70675] DEBUG -- : Read 187 bytes (11192 total)
+D, [2014-04-21T13:57:38.775723 #70675] DEBUG -- : Read 127 bytes (11319 total)
+D, [2014-04-21T13:57:38.775763 #70675] DEBUG -- : Read 10 bytes (11329 total)
+D, [2014-04-21T13:57:38.775933 #70675] DEBUG -- : gzip response
+D, [2014-04-21T13:57:38.780307 #70675] DEBUG -- : saved cookie: JSESSIONID=6p6BTVHSTBB1WjWLdy6L8vdrbDNd0VdsNwvhqD5cSc4lhLJ2SSFg!-1070566653!226924259
+I, [2014-04-21T13:57:38.786390 #70675]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop;jsessionid=6p6BTVHSTBB1WjWLdy6L8vdrbDNd0VdsNwvhqD5cSc4lhLJ2SSFg!-1070566653!226924259?_nfpb=true&_pageLabel=dwdwww_spezielle_nutzer&_nfls=false
+D, [2014-04-21T13:57:38.786432 #70675] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T13:57:38.786456 #70675] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T13:57:38.786478 #70675] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T13:57:38.786500 #70675] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T13:57:38.786522 #70675] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T13:57:38.786544 #70675] DEBUG -- : request-header: cookie => JSESSIONID=6p6BTVHSTBB1WjWLdy6L8vdrbDNd0VdsNwvhqD5cSc4lhLJ2SSFg!-1070566653!226924259; active-cluster=cluster1
+D, [2014-04-21T13:57:38.786565 #70675] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T13:57:38.786592 #70675] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_windowLabel=dwdwww_main_book&T17500013121287044130563gsbDocumentPath=&switchLang=de&_pageLabel=dwdwww_start
+I, [2014-04-21T13:57:39.160025 #70675]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T13:57:39.160102 #70675] DEBUG -- : response-header: date => Mon, 21 Apr 2014 11:57:38 GMT
+D, [2014-04-21T13:57:39.160152 #70675] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T13:57:39.160176 #70675] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T13:57:39.160206 #70675] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T13:57:39.160228 #70675] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T13:57:39.160249 #70675] DEBUG -- : response-header: keep-alive => timeout=15, max=98
+D, [2014-04-21T13:57:39.160270 #70675] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T13:57:39.160290 #70675] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T13:57:39.160310 #70675] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T13:57:39.160377 #70675] DEBUG -- : Read 1062 bytes (1062 total)
+D, [2014-04-21T13:57:39.160413 #70675] DEBUG -- : Read 249 bytes (1311 total)
+D, [2014-04-21T13:57:39.160478 #70675] DEBUG -- : Read 261 bytes (1572 total)
+D, [2014-04-21T13:57:39.160523 #70675] DEBUG -- : Read 351 bytes (1923 total)
+D, [2014-04-21T13:57:39.160556 #70675] DEBUG -- : Read 281 bytes (2204 total)
+D, [2014-04-21T13:57:39.160591 #70675] DEBUG -- : Read 458 bytes (2662 total)
+D, [2014-04-21T13:57:39.161942 #70675] DEBUG -- : Read 174 bytes (2836 total)
+D, [2014-04-21T13:57:39.166967 #70675] DEBUG -- : Read 285 bytes (3121 total)
+D, [2014-04-21T13:57:39.167508 #70675] DEBUG -- : Read 136 bytes (3257 total)
+D, [2014-04-21T13:57:39.167549 #70675] DEBUG -- : Read 58 bytes (3315 total)
+D, [2014-04-21T13:57:39.167623 #70675] DEBUG -- : Read 580 bytes (3895 total)
+D, [2014-04-21T13:57:39.168656 #70675] DEBUG -- : Read 774 bytes (4669 total)
+D, [2014-04-21T13:57:39.168706 #70675] DEBUG -- : Read 226 bytes (4895 total)
+D, [2014-04-21T13:57:39.169064 #70675] DEBUG -- : Read 352 bytes (5247 total)
+D, [2014-04-21T13:57:39.169109 #70675] DEBUG -- : Read 243 bytes (5490 total)
+D, [2014-04-21T13:57:39.169143 #70675] DEBUG -- : Read 254 bytes (5744 total)
+D, [2014-04-21T13:57:39.169589 #70675] DEBUG -- : Read 129 bytes (5873 total)
+D, [2014-04-21T13:57:39.169627 #70675] DEBUG -- : Read 157 bytes (6030 total)
+D, [2014-04-21T13:57:39.173807 #70675] DEBUG -- : Read 122 bytes (6152 total)
+D, [2014-04-21T13:57:39.767363 #70675] DEBUG -- : Read 142 bytes (6294 total)
+D, [2014-04-21T13:57:39.767445 #70675] DEBUG -- : Read 125 bytes (6419 total)
+D, [2014-04-21T13:57:39.767479 #70675] DEBUG -- : Read 164 bytes (6583 total)
+D, [2014-04-21T13:57:39.767511 #70675] DEBUG -- : Read 267 bytes (6850 total)
+D, [2014-04-21T13:57:39.767543 #70675] DEBUG -- : Read 349 bytes (7199 total)
+D, [2014-04-21T13:57:39.767574 #70675] DEBUG -- : Read 10 bytes (7209 total)
+D, [2014-04-21T13:57:39.767687 #70675] DEBUG -- : gzip response
+I, [2014-04-21T13:57:39.774927 #70675]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt&activePage=&_nfls=false
+D, [2014-04-21T13:57:39.774962 #70675] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T13:57:39.774986 #70675] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T13:57:39.775007 #70675] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T13:57:39.775029 #70675] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T13:57:39.775049 #70675] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T13:57:39.775074 #70675] DEBUG -- : request-header: cookie => JSESSIONID=6p6BTVHSTBB1WjWLdy6L8vdrbDNd0VdsNwvhqD5cSc4lhLJ2SSFg!-1070566653!226924259; active-cluster=cluster1
+D, [2014-04-21T13:57:39.775095 #70675] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T13:57:39.775137 #70675] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop;jsessionid=6p6BTVHSTBB1WjWLdy6L8vdrbDNd0VdsNwvhqD5cSc4lhLJ2SSFg!-1070566653!226924259?_nfpb=true&_pageLabel=dwdwww_spezielle_nutzer&_nfls=false
+I, [2014-04-21T13:57:40.067888 #70675]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T13:57:40.067958 #70675] DEBUG -- : response-header: date => Mon, 21 Apr 2014 11:57:39 GMT
+D, [2014-04-21T13:57:40.067985 #70675] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T13:57:40.068006 #70675] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T13:57:40.068027 #70675] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T13:57:40.068047 #70675] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T13:57:40.068067 #70675] DEBUG -- : response-header: keep-alive => timeout=15, max=97
+D, [2014-04-21T13:57:40.068086 #70675] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T13:57:40.068106 #70675] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T13:57:40.068126 #70675] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T13:57:40.068184 #70675] DEBUG -- : Read 1058 bytes (1058 total)
+D, [2014-04-21T13:57:40.068217 #70675] DEBUG -- : Read 248 bytes (1306 total)
+D, [2014-04-21T13:57:40.068249 #70675] DEBUG -- : Read 272 bytes (1578 total)
+D, [2014-04-21T13:57:40.068305 #70675] DEBUG -- : Read 373 bytes (1951 total)
+D, [2014-04-21T13:57:40.068338 #70675] DEBUG -- : Read 266 bytes (2217 total)
+D, [2014-04-21T13:57:40.069558 #70675] DEBUG -- : Read 298 bytes (2515 total)
+D, [2014-04-21T13:57:40.073768 #70675] DEBUG -- : Read 115 bytes (2630 total)
+D, [2014-04-21T13:57:40.075759 #70675] DEBUG -- : Read 329 bytes (2959 total)
+D, [2014-04-21T13:57:40.075808 #70675] DEBUG -- : Read 38 bytes (2997 total)
+D, [2014-04-21T13:57:40.075859 #70675] DEBUG -- : Read 959 bytes (3956 total)
+D, [2014-04-21T13:57:40.076134 #70675] DEBUG -- : Read 324 bytes (4280 total)
+D, [2014-04-21T13:57:40.076800 #70675] DEBUG -- : Read 189 bytes (4469 total)
+D, [2014-04-21T13:57:40.076885 #70675] DEBUG -- : Read 144 bytes (4613 total)
+D, [2014-04-21T13:57:40.076917 #70675] DEBUG -- : Read 94 bytes (4707 total)
+D, [2014-04-21T13:57:40.077396 #70675] DEBUG -- : Read 559 bytes (5266 total)
+D, [2014-04-21T13:57:40.077431 #70675] DEBUG -- : Read 8 bytes (5274 total)
+D, [2014-04-21T13:57:40.077462 #70675] DEBUG -- : Read 16 bytes (5290 total)
+D, [2014-04-21T13:57:40.077893 #70675] DEBUG -- : Read 10 bytes (5300 total)
+D, [2014-04-21T13:57:40.078011 #70675] DEBUG -- : gzip response
+I, [2014-04-21T13:57:40.083560 #70675]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&activePage=&_nfls=false
+D, [2014-04-21T13:57:40.083596 #70675] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T13:57:40.083644 #70675] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T13:57:40.083666 #70675] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T13:57:40.083692 #70675] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T13:57:40.083713 #70675] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T13:57:40.083734 #70675] DEBUG -- : request-header: cookie => JSESSIONID=6p6BTVHSTBB1WjWLdy6L8vdrbDNd0VdsNwvhqD5cSc4lhLJ2SSFg!-1070566653!226924259; active-cluster=cluster1
+D, [2014-04-21T13:57:40.083754 #70675] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T13:57:40.083780 #70675] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt&activePage=&_nfls=false
+I, [2014-04-21T13:57:40.579729 #70675]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T13:57:40.579806 #70675] DEBUG -- : response-header: date => Mon, 21 Apr 2014 11:57:40 GMT
+D, [2014-04-21T13:57:40.579830 #70675] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T13:57:40.579851 #70675] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T13:57:40.579872 #70675] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T13:57:40.579916 #70675] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T13:57:40.579938 #70675] DEBUG -- : response-header: keep-alive => timeout=15, max=96
+D, [2014-04-21T13:57:40.579967 #70675] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T13:57:40.579988 #70675] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T13:57:40.580008 #70675] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T13:57:40.580093 #70675] DEBUG -- : Read 1162 bytes (1162 total)
+D, [2014-04-21T13:57:40.582910 #70675] DEBUG -- : Read 47 bytes (1209 total)
+D, [2014-04-21T13:57:40.584739 #70675] DEBUG -- : Read 76 bytes (1285 total)
+D, [2014-04-21T13:57:40.586795 #70675] DEBUG -- : Read 619 bytes (1904 total)
+D, [2014-04-21T13:57:40.586842 #70675] DEBUG -- : Read 8 bytes (1912 total)
+D, [2014-04-21T13:57:40.586879 #70675] DEBUG -- : Read 260 bytes (2172 total)
+D, [2014-04-21T13:57:40.587434 #70675] DEBUG -- : Read 404 bytes (2576 total)
+D, [2014-04-21T13:57:40.587473 #70675] DEBUG -- : Read 423 bytes (2999 total)
+D, [2014-04-21T13:57:40.588079 #70675] DEBUG -- : Read 97 bytes (3096 total)
+D, [2014-04-21T13:57:40.588120 #70675] DEBUG -- : Read 144 bytes (3240 total)
+D, [2014-04-21T13:57:40.588153 #70675] DEBUG -- : Read 288 bytes (3528 total)
+D, [2014-04-21T13:57:40.588185 #70675] DEBUG -- : Read 250 bytes (3778 total)
+D, [2014-04-21T13:57:40.588456 #70675] DEBUG -- : Read 138 bytes (3916 total)
+D, [2014-04-21T13:57:40.593961 #70675] DEBUG -- : Read 156 bytes (4072 total)
+D, [2014-04-21T13:57:40.595762 #70675] DEBUG -- : Read 69 bytes (4141 total)
+D, [2014-04-21T13:57:40.596428 #70675] DEBUG -- : Read 172 bytes (4313 total)
+D, [2014-04-21T13:57:40.596474 #70675] DEBUG -- : Read 85 bytes (4398 total)
+D, [2014-04-21T13:57:40.596522 #70675] DEBUG -- : Read 130 bytes (4528 total)
+D, [2014-04-21T13:57:40.596783 #70675] DEBUG -- : Read 291 bytes (4819 total)
+D, [2014-04-21T13:57:40.596825 #70675] DEBUG -- : Read 70 bytes (4889 total)
+D, [2014-04-21T13:57:40.597108 #70675] DEBUG -- : Read 75 bytes (4964 total)
+D, [2014-04-21T13:57:40.601722 #70675] DEBUG -- : Read 84 bytes (5048 total)
+D, [2014-04-21T13:57:40.604671 #70675] DEBUG -- : Read 154 bytes (5202 total)
+D, [2014-04-21T13:57:40.604762 #70675] DEBUG -- : Read 102 bytes (5304 total)
+D, [2014-04-21T13:57:40.604969 #70675] DEBUG -- : Read 132 bytes (5436 total)
+D, [2014-04-21T13:57:40.605017 #70675] DEBUG -- : Read 133 bytes (5569 total)
+D, [2014-04-21T13:57:40.606340 #70675] DEBUG -- : Read 119 bytes (5688 total)
+D, [2014-04-21T13:57:40.606523 #70675] DEBUG -- : Read 65 bytes (5753 total)
+D, [2014-04-21T13:57:40.606577 #70675] DEBUG -- : Read 77 bytes (5830 total)
+D, [2014-04-21T13:57:40.606638 #70675] DEBUG -- : Read 97 bytes (5927 total)
+D, [2014-04-21T13:57:40.606683 #70675] DEBUG -- : Read 184 bytes (6111 total)
+D, [2014-04-21T13:57:40.607023 #70675] DEBUG -- : Read 307 bytes (6418 total)
+D, [2014-04-21T13:57:40.607080 #70675] DEBUG -- : Read 425 bytes (6843 total)
+D, [2014-04-21T13:57:40.607122 #70675] DEBUG -- : Read 25 bytes (6868 total)
+D, [2014-04-21T13:57:40.607694 #70675] DEBUG -- : Read 10 bytes (6878 total)
+D, [2014-04-21T13:57:40.607835 #70675] DEBUG -- : gzip response
+I, [2014-04-21T13:57:40.616956 #70675]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Content%2FSchifffahrt%2FSeewetter%2FSeewetter__Mittelmeer__teaser.html&_state=maximized&_windowLabel=T18605818401151909357330&lastPageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter
+D, [2014-04-21T13:57:40.617012 #70675] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T13:57:40.617037 #70675] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T13:57:40.617059 #70675] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T13:57:40.617080 #70675] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T13:57:40.617127 #70675] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T13:57:40.617151 #70675] DEBUG -- : request-header: cookie => JSESSIONID=6p6BTVHSTBB1WjWLdy6L8vdrbDNd0VdsNwvhqD5cSc4lhLJ2SSFg!-1070566653!226924259; active-cluster=cluster1
+D, [2014-04-21T13:57:40.617172 #70675] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T13:57:40.617199 #70675] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&activePage=&_nfls=false
+I, [2014-04-21T13:57:40.768772 #70675]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T13:57:40.768847 #70675] DEBUG -- : response-header: date => Mon, 21 Apr 2014 11:57:40 GMT
+D, [2014-04-21T13:57:40.768871 #70675] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T13:57:40.768893 #70675] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T13:57:40.768914 #70675] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T13:57:40.768935 #70675] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T13:57:40.768956 #70675] DEBUG -- : response-header: keep-alive => timeout=15, max=95
+D, [2014-04-21T13:57:40.768981 #70675] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T13:57:40.769002 #70675] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T13:57:40.769040 #70675] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T13:57:40.769103 #70675] DEBUG -- : Read 1162 bytes (1162 total)
+D, [2014-04-21T13:57:40.770020 #70675] DEBUG -- : Read 109 bytes (1271 total)
+D, [2014-04-21T13:57:40.770066 #70675] DEBUG -- : Read 10 bytes (1281 total)
+D, [2014-04-21T13:57:40.770892 #70675] DEBUG -- : Read 644 bytes (1925 total)
+D, [2014-04-21T13:57:40.770946 #70675] DEBUG -- : Read 9 bytes (1934 total)
+D, [2014-04-21T13:57:40.770981 #70675] DEBUG -- : Read 125 bytes (2059 total)
+D, [2014-04-21T13:57:40.771016 #70675] DEBUG -- : Read 525 bytes (2584 total)
+D, [2014-04-21T13:57:40.772077 #70675] DEBUG -- : Read 70 bytes (2654 total)
+D, [2014-04-21T13:57:40.773669 #70675] DEBUG -- : Read 790 bytes (3444 total)
+D, [2014-04-21T13:57:40.773924 #70675] DEBUG -- : Read 14 bytes (3458 total)
+D, [2014-04-21T13:57:40.775276 #70675] DEBUG -- : Read 718 bytes (4176 total)
+D, [2014-04-21T13:57:40.775816 #70675] DEBUG -- : Read 408 bytes (4584 total)
+D, [2014-04-21T13:57:40.776619 #70675] DEBUG -- : Read 138 bytes (4722 total)
+D, [2014-04-21T13:57:40.776880 #70675] DEBUG -- : Read 94 bytes (4816 total)
+D, [2014-04-21T13:57:40.777298 #70675] DEBUG -- : Read 10 bytes (4826 total)
+D, [2014-04-21T13:57:40.777407 #70675] DEBUG -- : gzip response
+I, [2014-04-21T13:57:40.782749 #70675]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Navigation%2FSchifffahrt%2FSeewetter%2FSeewetterbericht__24__strecke__node.html%3F__nnn%3Dtrue
+D, [2014-04-21T13:57:40.782786 #70675] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T13:57:40.782810 #70675] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T13:57:40.782831 #70675] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T13:57:40.782853 #70675] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T13:57:40.782874 #70675] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T13:57:40.782898 #70675] DEBUG -- : request-header: cookie => JSESSIONID=6p6BTVHSTBB1WjWLdy6L8vdrbDNd0VdsNwvhqD5cSc4lhLJ2SSFg!-1070566653!226924259; active-cluster=cluster1
+D, [2014-04-21T13:57:40.782919 #70675] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T13:57:40.782946 #70675] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Content%2FSchifffahrt%2FSeewetter%2FSeewetter__Mittelmeer__teaser.html&_state=maximized&_windowLabel=T18605818401151909357330&lastPageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter
+I, [2014-04-21T13:57:41.169458 #70675]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T13:57:41.169550 #70675] DEBUG -- : response-header: date => Mon, 21 Apr 2014 11:57:40 GMT
+D, [2014-04-21T13:57:41.169577 #70675] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T13:57:41.169609 #70675] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T13:57:41.169653 #70675] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T13:57:41.169674 #70675] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T13:57:41.169694 #70675] DEBUG -- : response-header: keep-alive => timeout=15, max=94
+D, [2014-04-21T13:57:41.169714 #70675] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T13:57:41.169734 #70675] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T13:57:41.169754 #70675] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T13:57:41.169822 #70675] DEBUG -- : Read 1162 bytes (1162 total)
+D, [2014-04-21T13:57:41.169860 #70675] DEBUG -- : Read 109 bytes (1271 total)
+D, [2014-04-21T13:57:41.169892 #70675] DEBUG -- : Read 10 bytes (1281 total)
+D, [2014-04-21T13:57:41.171845 #70675] DEBUG -- : Read 661 bytes (1942 total)
+D, [2014-04-21T13:57:41.172584 #70675] DEBUG -- : Read 9 bytes (1951 total)
+D, [2014-04-21T13:57:41.172647 #70675] DEBUG -- : Read 119 bytes (2070 total)
+D, [2014-04-21T13:57:41.172689 #70675] DEBUG -- : Read 531 bytes (2601 total)
+D, [2014-04-21T13:57:41.175749 #70675] DEBUG -- : Read 76 bytes (2677 total)
+D, [2014-04-21T13:57:41.175960 #70675] DEBUG -- : Read 834 bytes (3511 total)
+D, [2014-04-21T13:57:41.176015 #70675] DEBUG -- : Read 12 bytes (3523 total)
+D, [2014-04-21T13:57:41.176543 #70675] DEBUG -- : Read 571 bytes (4094 total)
+D, [2014-04-21T13:57:41.176591 #70675] DEBUG -- : Read 9 bytes (4103 total)
+D, [2014-04-21T13:57:41.178598 #70675] DEBUG -- : Read 310 bytes (4413 total)
+D, [2014-04-21T13:57:41.178636 #70675] DEBUG -- : Read 11 bytes (4424 total)
+D, [2014-04-21T13:57:41.178680 #70675] DEBUG -- : Read 323 bytes (4747 total)
+D, [2014-04-21T13:57:41.178712 #70675] DEBUG -- : Read 9 bytes (4756 total)
+D, [2014-04-21T13:57:41.179007 #70675] DEBUG -- : Read 12 bytes (4768 total)
+D, [2014-04-21T13:57:41.180232 #70675] DEBUG -- : Read 293 bytes (5061 total)
+D, [2014-04-21T13:57:41.180270 #70675] DEBUG -- : Read 31 bytes (5092 total)
+D, [2014-04-21T13:57:41.181275 #70675] DEBUG -- : Read 249 bytes (5341 total)
+D, [2014-04-21T13:57:41.182615 #70675] DEBUG -- : Read 36 bytes (5377 total)
+D, [2014-04-21T13:57:41.182652 #70675] DEBUG -- : Read 244 bytes (5621 total)
+D, [2014-04-21T13:57:41.184020 #70675] DEBUG -- : Read 26 bytes (5647 total)
+D, [2014-04-21T13:57:41.184070 #70675] DEBUG -- : Read 244 bytes (5891 total)
+D, [2014-04-21T13:57:41.184104 #70675] DEBUG -- : Read 41 bytes (5932 total)
+D, [2014-04-21T13:57:41.184632 #70675] DEBUG -- : Read 230 bytes (6162 total)
+D, [2014-04-21T13:57:41.185264 #70675] DEBUG -- : Read 23 bytes (6185 total)
+D, [2014-04-21T13:57:41.186096 #70675] DEBUG -- : Read 156 bytes (6341 total)
+D, [2014-04-21T13:57:41.186723 #70675] DEBUG -- : Read 93 bytes (6434 total)
+D, [2014-04-21T13:57:41.186760 #70675] DEBUG -- : Read 32 bytes (6466 total)
+D, [2014-04-21T13:57:41.186802 #70675] DEBUG -- : Read 235 bytes (6701 total)
+D, [2014-04-21T13:57:41.188812 #70675] DEBUG -- : Read 40 bytes (6741 total)
+D, [2014-04-21T13:57:41.188851 #70675] DEBUG -- : Read 231 bytes (6972 total)
+D, [2014-04-21T13:57:41.188883 #70675] DEBUG -- : Read 41 bytes (7013 total)
+D, [2014-04-21T13:57:41.188940 #70675] DEBUG -- : Read 218 bytes (7231 total)
+D, [2014-04-21T13:57:41.188973 #70675] DEBUG -- : Read 26 bytes (7257 total)
+D, [2014-04-21T13:57:41.193345 #70675] DEBUG -- : Read 189 bytes (7446 total)
+D, [2014-04-21T13:57:41.193476 #70675] DEBUG -- : Read 31 bytes (7477 total)
+D, [2014-04-21T13:57:41.193730 #70675] DEBUG -- : Read 159 bytes (7636 total)
+D, [2014-04-21T13:57:41.193872 #70675] DEBUG -- : Read 94 bytes (7730 total)
+D, [2014-04-21T13:57:41.194469 #70675] DEBUG -- : Read 16 bytes (7746 total)
+D, [2014-04-21T13:57:41.194511 #70675] DEBUG -- : Read 72 bytes (7818 total)
+D, [2014-04-21T13:57:41.195805 #70675] DEBUG -- : Read 525 bytes (8343 total)
+D, [2014-04-21T13:57:41.197303 #70675] DEBUG -- : Read 558 bytes (8901 total)
+D, [2014-04-21T13:57:41.197585 #70675] DEBUG -- : Read 123 bytes (9024 total)
+D, [2014-04-21T13:57:41.199409 #70675] DEBUG -- : Read 116 bytes (9140 total)
+D, [2014-04-21T13:57:41.199457 #70675] DEBUG -- : Read 10 bytes (9150 total)
+D, [2014-04-21T13:57:41.199554 #70675] DEBUG -- : gzip response
+I, [2014-04-21T14:07:11.326592 #70906]  INFO -- : Net::HTTP::Get: /
+D, [2014-04-21T14:07:11.326631 #70906] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:07:11.326655 #70906] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:07:11.326676 #70906] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:07:11.326697 #70906] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:07:11.326717 #70906] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:07:11.326737 #70906] DEBUG -- : request-header: host => www.dwd.de
+I, [2014-04-21T14:07:11.469075 #70906]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:07:11.469195 #70906] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:07:11 GMT
+D, [2014-04-21T14:07:11.469246 #70906] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:07:11.469291 #70906] DEBUG -- : response-header: set-cookie => active-cluster=cluster1; path=/; domain=.dwd.de
+D, [2014-04-21T14:07:11.469351 #70906] DEBUG -- : response-header: last-modified => Mon, 21 Apr 2014 12:06:02 GMT
+D, [2014-04-21T14:07:11.469409 #70906] DEBUG -- : response-header: etag => "b4b251-d8df-4f78c52be9472"
+D, [2014-04-21T14:07:11.469449 #70906] DEBUG -- : response-header: accept-ranges => bytes
+D, [2014-04-21T14:07:11.469481 #70906] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2014-04-21T14:07:11.469513 #70906] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:07:11.469544 #70906] DEBUG -- : response-header: content-length => 9669
+D, [2014-04-21T14:07:11.469576 #70906] DEBUG -- : response-header: keep-alive => timeout=15, max=100
+D, [2014-04-21T14:07:11.469615 #70906] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:07:11.469647 #70906] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2014-04-21T14:07:11.469810 #70906] DEBUG -- : Read 1050 bytes (1050 total)
+D, [2014-04-21T14:07:11.469880 #70906] DEBUG -- : Read 1452 bytes (2502 total)
+D, [2014-04-21T14:07:11.514675 #70906] DEBUG -- : Read 1452 bytes (3954 total)
+D, [2014-04-21T14:07:11.515623 #70906] DEBUG -- : Read 1452 bytes (5406 total)
+D, [2014-04-21T14:07:11.516587 #70906] DEBUG -- : Read 1452 bytes (6858 total)
+D, [2014-04-21T14:07:11.576762 #70906] DEBUG -- : Read 1452 bytes (8310 total)
+D, [2014-04-21T14:07:11.577612 #70906] DEBUG -- : Read 1359 bytes (9669 total)
+D, [2014-04-21T14:07:11.577905 #70906] DEBUG -- : gzip response
+D, [2014-04-21T14:07:11.584990 #70906] DEBUG -- : saved cookie: active-cluster=cluster1
+I, [2014-04-21T14:07:11.593276 #70906]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_windowLabel=dwdwww_main_book&T17500013121287044130563gsbDocumentPath=&switchLang=de&_pageLabel=dwdwww_start
+D, [2014-04-21T14:07:11.593367 #70906] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:07:11.593391 #70906] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:07:11.593412 #70906] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:07:11.593455 #70906] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:07:11.593481 #70906] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:07:11.593502 #70906] DEBUG -- : request-header: cookie => active-cluster=cluster1
+D, [2014-04-21T14:07:11.593523 #70906] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:07:11.593547 #70906] DEBUG -- : request-header: referer => http://www.dwd.de/
+I, [2014-04-21T14:07:12.043452 #70906]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:07:12.043602 #70906] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:07:11 GMT
+D, [2014-04-21T14:07:12.043655 #70906] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:07:12.043706 #70906] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:07:12.043757 #70906] DEBUG -- : response-header: cache-control => no-cache="set-cookie"
+D, [2014-04-21T14:07:12.043809 #70906] DEBUG -- : response-header: set-cookie => JSESSIONID=k4pmTVJPZZJfxTpQpkGw5MHvg1kpVLFjsGTW3PZ3TJ0hTXjVyyQ8!-1676576344!-522781507; path=/
+D, [2014-04-21T14:07:12.043875 #70906] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:07:12.043930 #70906] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:07:12.043963 #70906] DEBUG -- : response-header: keep-alive => timeout=15, max=99
+D, [2014-04-21T14:07:12.043995 #70906] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:07:12.044034 #70906] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:07:12.044066 #70906] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:07:12.044224 #70906] DEBUG -- : Read 638 bytes (638 total)
+D, [2014-04-21T14:07:12.044316 #70906] DEBUG -- : Read 703 bytes (1341 total)
+D, [2014-04-21T14:07:12.044370 #70906] DEBUG -- : Read 271 bytes (1612 total)
+D, [2014-04-21T14:07:12.045154 #70906] DEBUG -- : Read 351 bytes (1963 total)
+D, [2014-04-21T14:07:12.045223 #70906] DEBUG -- : Read 52 bytes (2015 total)
+D, [2014-04-21T14:07:12.045276 #70906] DEBUG -- : Read 449 bytes (2464 total)
+D, [2014-04-21T14:07:12.045504 #70906] DEBUG -- : Read 405 bytes (2869 total)
+D, [2014-04-21T14:07:12.046259 #70906] DEBUG -- : Read 418 bytes (3287 total)
+D, [2014-04-21T14:07:12.047052 #70906] DEBUG -- : Read 171 bytes (3458 total)
+D, [2014-04-21T14:07:12.047120 #70906] DEBUG -- : Read 243 bytes (3701 total)
+D, [2014-04-21T14:07:12.047171 #70906] DEBUG -- : Read 140 bytes (3841 total)
+D, [2014-04-21T14:07:12.047224 #70906] DEBUG -- : Read 108 bytes (3949 total)
+D, [2014-04-21T14:07:12.047311 #70906] DEBUG -- : Read 162 bytes (4111 total)
+D, [2014-04-21T14:07:12.047643 #70906] DEBUG -- : Read 118 bytes (4229 total)
+D, [2014-04-21T14:07:12.051249 #70906] DEBUG -- : Read 104 bytes (4333 total)
+D, [2014-04-21T14:07:12.051433 #70906] DEBUG -- : Read 175 bytes (4508 total)
+D, [2014-04-21T14:07:12.051565 #70906] DEBUG -- : Read 156 bytes (4664 total)
+D, [2014-04-21T14:07:12.051653 #70906] DEBUG -- : Read 337 bytes (5001 total)
+D, [2014-04-21T14:07:12.051714 #70906] DEBUG -- : Read 204 bytes (5205 total)
+D, [2014-04-21T14:07:12.052330 #70906] DEBUG -- : Read 1697 bytes (6902 total)
+D, [2014-04-21T14:07:12.052401 #70906] DEBUG -- : Read 13 bytes (6915 total)
+D, [2014-04-21T14:07:12.055050 #70906] DEBUG -- : Read 1666 bytes (8581 total)
+D, [2014-04-21T14:07:12.055180 #70906] DEBUG -- : Read 10 bytes (8591 total)
+D, [2014-04-21T14:07:12.055249 #70906] DEBUG -- : Read 37 bytes (8628 total)
+D, [2014-04-21T14:07:12.055311 #70906] DEBUG -- : Read 137 bytes (8765 total)
+D, [2014-04-21T14:07:12.055373 #70906] DEBUG -- : Read 180 bytes (8945 total)
+D, [2014-04-21T14:07:12.055434 #70906] DEBUG -- : Read 163 bytes (9108 total)
+D, [2014-04-21T14:07:12.055702 #70906] DEBUG -- : Read 154 bytes (9262 total)
+D, [2014-04-21T14:07:12.056039 #70906] DEBUG -- : Read 135 bytes (9397 total)
+D, [2014-04-21T14:07:12.057203 #70906] DEBUG -- : Read 306 bytes (9703 total)
+D, [2014-04-21T14:07:12.057312 #70906] DEBUG -- : Read 101 bytes (9804 total)
+D, [2014-04-21T14:07:12.057487 #70906] DEBUG -- : Read 109 bytes (9913 total)
+D, [2014-04-21T14:07:12.058078 #70906] DEBUG -- : Read 142 bytes (10055 total)
+D, [2014-04-21T14:07:12.058639 #70906] DEBUG -- : Read 117 bytes (10172 total)
+D, [2014-04-21T14:07:12.059171 #70906] DEBUG -- : Read 112 bytes (10284 total)
+D, [2014-04-21T14:07:12.059701 #70906] DEBUG -- : Read 325 bytes (10609 total)
+D, [2014-04-21T14:07:12.062129 #70906] DEBUG -- : Read 525 bytes (11134 total)
+D, [2014-04-21T14:07:12.062276 #70906] DEBUG -- : Read 8 bytes (11142 total)
+D, [2014-04-21T14:07:12.062358 #70906] DEBUG -- : Read 127 bytes (11269 total)
+D, [2014-04-21T14:07:12.062434 #70906] DEBUG -- : Read 10 bytes (11279 total)
+D, [2014-04-21T14:07:12.062568 #70906] DEBUG -- : gzip response
+D, [2014-04-21T14:07:12.067995 #70906] DEBUG -- : saved cookie: JSESSIONID=k4pmTVJPZZJfxTpQpkGw5MHvg1kpVLFjsGTW3PZ3TJ0hTXjVyyQ8!-1676576344!-522781507
+I, [2014-04-21T14:07:12.074495 #70906]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop;jsessionid=k4pmTVJPZZJfxTpQpkGw5MHvg1kpVLFjsGTW3PZ3TJ0hTXjVyyQ8!-1676576344!-522781507?_nfpb=true&_pageLabel=dwdwww_spezielle_nutzer&_nfls=false
+D, [2014-04-21T14:07:12.074538 #70906] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:07:12.074561 #70906] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:07:12.074585 #70906] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:07:12.074607 #70906] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:07:12.074627 #70906] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:07:12.074647 #70906] DEBUG -- : request-header: cookie => JSESSIONID=k4pmTVJPZZJfxTpQpkGw5MHvg1kpVLFjsGTW3PZ3TJ0hTXjVyyQ8!-1676576344!-522781507; active-cluster=cluster1
+D, [2014-04-21T14:07:12.074667 #70906] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:07:12.074695 #70906] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_windowLabel=dwdwww_main_book&T17500013121287044130563gsbDocumentPath=&switchLang=de&_pageLabel=dwdwww_start
+I, [2014-04-21T14:07:12.411409 #70906]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:07:12.411505 #70906] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:07:12 GMT
+D, [2014-04-21T14:07:12.411542 #70906] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:07:12.411580 #70906] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:07:12.411615 #70906] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:07:12.411696 #70906] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:07:12.411732 #70906] DEBUG -- : response-header: keep-alive => timeout=15, max=98
+D, [2014-04-21T14:07:12.411764 #70906] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:07:12.411796 #70906] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:07:12.411828 #70906] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:07:12.411919 #70906] DEBUG -- : Read 632 bytes (632 total)
+D, [2014-04-21T14:07:12.411993 #70906] DEBUG -- : Read 674 bytes (1306 total)
+D, [2014-04-21T14:07:12.412052 #70906] DEBUG -- : Read 238 bytes (1544 total)
+D, [2014-04-21T14:07:12.412110 #70906] DEBUG -- : Read 375 bytes (1919 total)
+D, [2014-04-21T14:07:12.412161 #70906] DEBUG -- : Read 194 bytes (2113 total)
+D, [2014-04-21T14:07:12.412254 #70906] DEBUG -- : Read 630 bytes (2743 total)
+D, [2014-04-21T14:07:12.412310 #70906] DEBUG -- : Read 142 bytes (2885 total)
+D, [2014-04-21T14:07:12.412360 #70906] DEBUG -- : Read 237 bytes (3122 total)
+D, [2014-04-21T14:07:12.412415 #70906] DEBUG -- : Read 116 bytes (3238 total)
+D, [2014-04-21T14:07:12.412469 #70906] DEBUG -- : Read 175 bytes (3413 total)
+D, [2014-04-21T14:07:12.412552 #70906] DEBUG -- : Read 20 bytes (3433 total)
+D, [2014-04-21T14:07:12.412604 #70906] DEBUG -- : Read 1149 bytes (4582 total)
+D, [2014-04-21T14:07:12.412652 #70906] DEBUG -- : Read 196 bytes (4778 total)
+D, [2014-04-21T14:07:12.412704 #70906] DEBUG -- : Read 228 bytes (5006 total)
+D, [2014-04-21T14:07:12.412824 #70906] DEBUG -- : Read 352 bytes (5358 total)
+D, [2014-04-21T14:07:12.412877 #70906] DEBUG -- : Read 243 bytes (5601 total)
+D, [2014-04-21T14:07:12.412929 #70906] DEBUG -- : Read 254 bytes (5855 total)
+D, [2014-04-21T14:07:12.412978 #70906] DEBUG -- : Read 129 bytes (5984 total)
+D, [2014-04-21T14:07:12.413030 #70906] DEBUG -- : Read 157 bytes (6141 total)
+D, [2014-04-21T14:07:12.413078 #70906] DEBUG -- : Read 122 bytes (6263 total)
+D, [2014-04-21T14:07:12.413137 #70906] DEBUG -- : Read 142 bytes (6405 total)
+D, [2014-04-21T14:07:12.413186 #70906] DEBUG -- : Read 125 bytes (6530 total)
+D, [2014-04-21T14:07:12.413249 #70906] DEBUG -- : Read 164 bytes (6694 total)
+D, [2014-04-21T14:07:12.413342 #70906] DEBUG -- : Read 286 bytes (6980 total)
+D, [2014-04-21T14:07:12.413393 #70906] DEBUG -- : Read 349 bytes (7329 total)
+D, [2014-04-21T14:07:12.413443 #70906] DEBUG -- : Read 10 bytes (7339 total)
+D, [2014-04-21T14:07:12.413562 #70906] DEBUG -- : gzip response
+I, [2014-04-21T14:07:12.422974 #70906]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop;jsessionid=TLSnTVGpgHng8zvZMJT3KLG510bzpmDkpljv4VQvWmd9RTztQMwT!-1676576344!-522781507?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt&activePage=&_nfls=false
+D, [2014-04-21T14:07:12.423054 #70906] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:07:12.423086 #70906] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:07:12.423112 #70906] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:07:12.423136 #70906] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:07:12.423160 #70906] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:07:12.423184 #70906] DEBUG -- : request-header: cookie => JSESSIONID=k4pmTVJPZZJfxTpQpkGw5MHvg1kpVLFjsGTW3PZ3TJ0hTXjVyyQ8!-1676576344!-522781507; active-cluster=cluster1
+D, [2014-04-21T14:07:12.423207 #70906] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:07:12.423241 #70906] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop;jsessionid=k4pmTVJPZZJfxTpQpkGw5MHvg1kpVLFjsGTW3PZ3TJ0hTXjVyyQ8!-1676576344!-522781507?_nfpb=true&_pageLabel=dwdwww_spezielle_nutzer&_nfls=false
+I, [2014-04-21T14:07:12.821136 #70906]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:07:12.821250 #70906] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:07:12 GMT
+D, [2014-04-21T14:07:12.821302 #70906] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:07:12.821347 #70906] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:07:12.821383 #70906] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:07:12.821415 #70906] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:07:12.821448 #70906] DEBUG -- : response-header: keep-alive => timeout=15, max=97
+D, [2014-04-21T14:07:12.821481 #70906] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:07:12.821560 #70906] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:07:12.821595 #70906] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:07:12.821687 #70906] DEBUG -- : Read 630 bytes (630 total)
+D, [2014-04-21T14:07:12.821746 #70906] DEBUG -- : Read 670 bytes (1300 total)
+D, [2014-04-21T14:07:12.821795 #70906] DEBUG -- : Read 247 bytes (1547 total)
+D, [2014-04-21T14:07:12.821868 #70906] DEBUG -- : Read 399 bytes (1946 total)
+D, [2014-04-21T14:07:12.821918 #70906] DEBUG -- : Read 163 bytes (2109 total)
+D, [2014-04-21T14:07:12.821979 #70906] DEBUG -- : Read 496 bytes (2605 total)
+D, [2014-04-21T14:07:12.822060 #70906] DEBUG -- : Read 356 bytes (2961 total)
+D, [2014-04-21T14:07:12.822123 #70906] DEBUG -- : Read 959 bytes (3920 total)
+D, [2014-04-21T14:07:12.822189 #70906] DEBUG -- : Read 324 bytes (4244 total)
+D, [2014-04-21T14:07:12.822243 #70906] DEBUG -- : Read 189 bytes (4433 total)
+D, [2014-04-21T14:07:12.822295 #70906] DEBUG -- : Read 144 bytes (4577 total)
+D, [2014-04-21T14:07:12.822343 #70906] DEBUG -- : Read 94 bytes (4671 total)
+D, [2014-04-21T14:07:12.822395 #70906] DEBUG -- : Read 366 bytes (5037 total)
+D, [2014-04-21T14:07:12.822442 #70906] DEBUG -- : Read 214 bytes (5251 total)
+D, [2014-04-21T14:07:12.822489 #70906] DEBUG -- : Read 17 bytes (5268 total)
+D, [2014-04-21T14:07:12.822539 #70906] DEBUG -- : Read 10 bytes (5278 total)
+D, [2014-04-21T14:07:12.822722 #70906] DEBUG -- : gzip response
+I, [2014-04-21T14:07:12.829961 #70906]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&activePage=&_nfls=false
+D, [2014-04-21T14:07:12.830006 #70906] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:07:12.830038 #70906] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:07:12.830102 #70906] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:07:12.830136 #70906] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:07:12.830165 #70906] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:07:12.830193 #70906] DEBUG -- : request-header: cookie => JSESSIONID=k4pmTVJPZZJfxTpQpkGw5MHvg1kpVLFjsGTW3PZ3TJ0hTXjVyyQ8!-1676576344!-522781507; active-cluster=cluster1
+D, [2014-04-21T14:07:12.830220 #70906] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:07:12.830256 #70906] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop;jsessionid=TLSnTVGpgHng8zvZMJT3KLG510bzpmDkpljv4VQvWmd9RTztQMwT!-1676576344!-522781507?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt&activePage=&_nfls=false
+I, [2014-04-21T14:07:13.333594 #70906]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:07:13.333710 #70906] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:07:13 GMT
+D, [2014-04-21T14:07:13.333764 #70906] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:07:13.333802 #70906] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:07:13.333836 #70906] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:07:13.333870 #70906] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:07:13.333902 #70906] DEBUG -- : response-header: keep-alive => timeout=15, max=96
+D, [2014-04-21T14:07:13.333935 #70906] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:07:13.333967 #70906] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:07:13.333999 #70906] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:07:13.334125 #70906] DEBUG -- : Read 1271 bytes (1271 total)
+D, [2014-04-21T14:07:13.334176 #70906] DEBUG -- : Read 10 bytes (1281 total)
+D, [2014-04-21T14:07:13.334275 #70906] DEBUG -- : Read 471 bytes (1752 total)
+D, [2014-04-21T14:07:13.334338 #70906] DEBUG -- : Read 164 bytes (1916 total)
+D, [2014-04-21T14:07:13.334398 #70906] DEBUG -- : Read 26 bytes (1942 total)
+D, [2014-04-21T14:07:13.334454 #70906] DEBUG -- : Read 619 bytes (2561 total)
+D, [2014-04-21T14:07:13.334514 #70906] DEBUG -- : Read 217 bytes (2778 total)
+D, [2014-04-21T14:07:13.334569 #70906] DEBUG -- : Read 342 bytes (3120 total)
+D, [2014-04-21T14:07:13.334630 #70906] DEBUG -- : Read 19 bytes (3139 total)
+D, [2014-04-21T14:07:13.334727 #70906] DEBUG -- : Read 289 bytes (3428 total)
+D, [2014-04-21T14:07:13.334783 #70906] DEBUG -- : Read 200 bytes (3628 total)
+D, [2014-04-21T14:07:13.334839 #70906] DEBUG -- : Read 63 bytes (3691 total)
+D, [2014-04-21T14:07:13.334920 #70906] DEBUG -- : Read 138 bytes (3829 total)
+D, [2014-04-21T14:07:13.334975 #70906] DEBUG -- : Read 156 bytes (3985 total)
+D, [2014-04-21T14:07:13.335031 #70906] DEBUG -- : Read 69 bytes (4054 total)
+D, [2014-04-21T14:07:13.335088 #70906] DEBUG -- : Read 93 bytes (4147 total)
+D, [2014-04-21T14:07:13.335144 #70906] DEBUG -- : Read 92 bytes (4239 total)
+D, [2014-04-21T14:07:13.335226 #70906] DEBUG -- : Read 85 bytes (4324 total)
+D, [2014-04-21T14:07:13.335279 #70906] DEBUG -- : Read 130 bytes (4454 total)
+D, [2014-04-21T14:07:13.335334 #70906] DEBUG -- : Read 291 bytes (4745 total)
+D, [2014-04-21T14:07:13.335386 #70906] DEBUG -- : Read 70 bytes (4815 total)
+D, [2014-04-21T14:07:13.335438 #70906] DEBUG -- : Read 75 bytes (4890 total)
+D, [2014-04-21T14:07:13.335486 #70906] DEBUG -- : Read 84 bytes (4974 total)
+D, [2014-04-21T14:07:13.335537 #70906] DEBUG -- : Read 154 bytes (5128 total)
+D, [2014-04-21T14:07:13.335589 #70906] DEBUG -- : Read 102 bytes (5230 total)
+D, [2014-04-21T14:07:13.335670 #70906] DEBUG -- : Read 132 bytes (5362 total)
+D, [2014-04-21T14:07:13.335718 #70906] DEBUG -- : Read 133 bytes (5495 total)
+D, [2014-04-21T14:07:13.335770 #70906] DEBUG -- : Read 80 bytes (5575 total)
+D, [2014-04-21T14:07:13.335818 #70906] DEBUG -- : Read 51 bytes (5626 total)
+D, [2014-04-21T14:07:13.335884 #70906] DEBUG -- : Read 65 bytes (5691 total)
+D, [2014-04-21T14:07:13.335937 #70906] DEBUG -- : Read 165 bytes (5856 total)
+D, [2014-04-21T14:07:13.335990 #70906] DEBUG -- : Read 184 bytes (6040 total)
+D, [2014-04-21T14:07:13.336046 #70906] DEBUG -- : Read 698 bytes (6738 total)
+D, [2014-04-21T14:07:13.336128 #70906] DEBUG -- : Read 9 bytes (6747 total)
+D, [2014-04-21T14:07:13.336176 #70906] DEBUG -- : Read 23 bytes (6770 total)
+D, [2014-04-21T14:07:13.336221 #70906] DEBUG -- : Read 10 bytes (6780 total)
+D, [2014-04-21T14:07:13.336342 #70906] DEBUG -- : gzip response
+I, [2014-04-21T14:07:13.347232 #70906]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Content%2FSchifffahrt%2FSeewetter%2FSeewetter__Mittelmeer__teaser.html&_state=maximized&_windowLabel=T18605818401151909357330&lastPageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter
+D, [2014-04-21T14:07:13.347275 #70906] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:07:13.347302 #70906] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:07:13.347339 #70906] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:07:13.347364 #70906] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:07:13.347387 #70906] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:07:13.347411 #70906] DEBUG -- : request-header: cookie => JSESSIONID=k4pmTVJPZZJfxTpQpkGw5MHvg1kpVLFjsGTW3PZ3TJ0hTXjVyyQ8!-1676576344!-522781507; active-cluster=cluster1
+D, [2014-04-21T14:07:13.347437 #70906] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:07:13.347467 #70906] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&activePage=&_nfls=false
+I, [2014-04-21T14:07:13.495945 #70906]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:07:13.496062 #70906] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:07:13 GMT
+D, [2014-04-21T14:07:13.496123 #70906] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:07:13.496169 #70906] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:07:13.496211 #70906] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:07:13.496251 #70906] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:07:13.496294 #70906] DEBUG -- : response-header: keep-alive => timeout=15, max=95
+D, [2014-04-21T14:07:13.496335 #70906] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:07:13.496406 #70906] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:07:13.496457 #70906] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:07:13.496556 #70906] DEBUG -- : Read 1162 bytes (1162 total)
+D, [2014-04-21T14:07:13.496619 #70906] DEBUG -- : Read 109 bytes (1271 total)
+D, [2014-04-21T14:07:13.496691 #70906] DEBUG -- : Read 10 bytes (1281 total)
+D, [2014-04-21T14:07:13.497886 #70906] DEBUG -- : Read 245 bytes (1526 total)
+D, [2014-04-21T14:07:13.498037 #70906] DEBUG -- : Read 434 bytes (1960 total)
+D, [2014-04-21T14:07:13.498134 #70906] DEBUG -- : Read 125 bytes (2085 total)
+D, [2014-04-21T14:07:13.498217 #70906] DEBUG -- : Read 525 bytes (2610 total)
+D, [2014-04-21T14:07:13.498281 #70906] DEBUG -- : Read 70 bytes (2680 total)
+D, [2014-04-21T14:07:13.498329 #70906] DEBUG -- : Read 16 bytes (2696 total)
+D, [2014-04-21T14:07:13.498390 #70906] DEBUG -- : Read 390 bytes (3086 total)
+D, [2014-04-21T14:07:13.498446 #70906] DEBUG -- : Read 421 bytes (3507 total)
+D, [2014-04-21T14:07:13.499862 #70906] DEBUG -- : Read 723 bytes (4230 total)
+D, [2014-04-21T14:07:13.499991 #70906] DEBUG -- : Read 285 bytes (4515 total)
+D, [2014-04-21T14:07:13.500076 #70906] DEBUG -- : Read 268 bytes (4783 total)
+D, [2014-04-21T14:07:13.500176 #70906] DEBUG -- : Read 94 bytes (4877 total)
+D, [2014-04-21T14:07:13.500243 #70906] DEBUG -- : Read 10 bytes (4887 total)
+D, [2014-04-21T14:07:13.500394 #70906] DEBUG -- : gzip response
+I, [2014-04-21T14:07:13.507464 #70906]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Navigation%2FSchifffahrt%2FSeewetter%2FSeewetterbericht__24__strecke__node.html%3F__nnn%3Dtrue
+D, [2014-04-21T14:07:13.507513 #70906] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:07:13.507545 #70906] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:07:13.507574 #70906] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:07:13.507603 #70906] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:07:13.507630 #70906] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:07:13.507675 #70906] DEBUG -- : request-header: cookie => JSESSIONID=k4pmTVJPZZJfxTpQpkGw5MHvg1kpVLFjsGTW3PZ3TJ0hTXjVyyQ8!-1676576344!-522781507; active-cluster=cluster1
+D, [2014-04-21T14:07:13.507702 #70906] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:07:13.507741 #70906] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Content%2FSchifffahrt%2FSeewetter%2FSeewetter__Mittelmeer__teaser.html&_state=maximized&_windowLabel=T18605818401151909357330&lastPageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter
+I, [2014-04-21T14:07:13.694536 #70906]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:07:13.694649 #70906] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:07:13 GMT
+D, [2014-04-21T14:07:13.694701 #70906] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:07:13.694744 #70906] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:07:13.694786 #70906] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:07:13.694827 #70906] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:07:13.694869 #70906] DEBUG -- : response-header: keep-alive => timeout=15, max=94
+D, [2014-04-21T14:07:13.694909 #70906] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:07:13.694950 #70906] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:07:13.694992 #70906] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:07:13.695097 #70906] DEBUG -- : Read 627 bytes (627 total)
+D, [2014-04-21T14:07:13.695188 #70906] DEBUG -- : Read 668 bytes (1295 total)
+D, [2014-04-21T14:07:13.695300 #70906] DEBUG -- : Read 248 bytes (1543 total)
+D, [2014-04-21T14:07:13.695567 #70906] DEBUG -- : Read 450 bytes (1993 total)
+D, [2014-04-21T14:07:13.696217 #70906] DEBUG -- : Read 119 bytes (2112 total)
+D, [2014-04-21T14:07:13.696793 #70906] DEBUG -- : Read 531 bytes (2643 total)
+D, [2014-04-21T14:07:13.697361 #70906] DEBUG -- : Read 76 bytes (2719 total)
+D, [2014-04-21T14:07:13.697430 #70906] DEBUG -- : Read 386 bytes (3105 total)
+D, [2014-04-21T14:07:13.698655 #70906] DEBUG -- : Read 481 bytes (3586 total)
+D, [2014-04-21T14:07:13.698741 #70906] DEBUG -- : Read 520 bytes (4106 total)
+D, [2014-04-21T14:07:13.698950 #70906] DEBUG -- : Read 67 bytes (4173 total)
+D, [2014-04-21T14:07:13.699023 #70906] DEBUG -- : Read 218 bytes (4391 total)
+D, [2014-04-21T14:07:13.699547 #70906] DEBUG -- : Read 112 bytes (4503 total)
+D, [2014-04-21T14:07:13.699643 #70906] DEBUG -- : Read 247 bytes (4750 total)
+D, [2014-04-21T14:07:13.700223 #70906] DEBUG -- : Read 99 bytes (4849 total)
+D, [2014-04-21T14:07:13.700833 #70906] DEBUG -- : Read 296 bytes (5145 total)
+D, [2014-04-21T14:07:13.701399 #70906] DEBUG -- : Read 268 bytes (5413 total)
+D, [2014-04-21T14:07:13.701455 #70906] DEBUG -- : Read 10 bytes (5423 total)
+D, [2014-04-21T14:07:13.702085 #70906] DEBUG -- : Read 266 bytes (5689 total)
+D, [2014-04-21T14:07:13.702179 #70906] DEBUG -- : Read 10 bytes (5699 total)
+D, [2014-04-21T14:07:13.702643 #70906] DEBUG -- : Read 254 bytes (5953 total)
+D, [2014-04-21T14:07:13.704584 #70906] DEBUG -- : Read 11 bytes (5964 total)
+D, [2014-04-21T14:07:13.705081 #70906] DEBUG -- : Read 161 bytes (6125 total)
+D, [2014-04-21T14:07:13.705165 #70906] DEBUG -- : Read 105 bytes (6230 total)
+D, [2014-04-21T14:07:13.705211 #70906] DEBUG -- : Read 27 bytes (6257 total)
+D, [2014-04-21T14:07:13.705262 #70906] DEBUG -- : Read 136 bytes (6393 total)
+D, [2014-04-21T14:07:13.705308 #70906] DEBUG -- : Read 129 bytes (6522 total)
+D, [2014-04-21T14:07:13.705571 #70906] DEBUG -- : Read 167 bytes (6689 total)
+D, [2014-04-21T14:07:13.705645 #70906] DEBUG -- : Read 111 bytes (6800 total)
+D, [2014-04-21T14:07:13.706140 #70906] DEBUG -- : Read 179 bytes (6979 total)
+D, [2014-04-21T14:07:13.707090 #70906] DEBUG -- : Read 99 bytes (7078 total)
+D, [2014-04-21T14:07:13.707687 #70906] DEBUG -- : Read 166 bytes (7244 total)
+D, [2014-04-21T14:07:13.707736 #70906] DEBUG -- : Read 111 bytes (7355 total)
+D, [2014-04-21T14:07:13.707968 #70906] DEBUG -- : Read 146 bytes (7501 total)
+D, [2014-04-21T14:07:13.709104 #70906] DEBUG -- : Read 73 bytes (7574 total)
+D, [2014-04-21T14:07:13.709672 #70906] DEBUG -- : Read 62 bytes (7636 total)
+D, [2014-04-21T14:07:13.709763 #70906] DEBUG -- : Read 204 bytes (7840 total)
+D, [2014-04-21T14:07:13.709808 #70906] DEBUG -- : Read 10 bytes (7850 total)
+D, [2014-04-21T14:07:13.710681 #70906] DEBUG -- : Read 600 bytes (8450 total)
+D, [2014-04-21T14:07:13.711517 #70906] DEBUG -- : Read 564 bytes (9014 total)
+D, [2014-04-21T14:07:13.711742 #70906] DEBUG -- : Read 118 bytes (9132 total)
+D, [2014-04-21T14:07:13.711825 #70906] DEBUG -- : Read 116 bytes (9248 total)
+D, [2014-04-21T14:07:13.712006 #70906] DEBUG -- : Read 10 bytes (9258 total)
+D, [2014-04-21T14:07:13.712157 #70906] DEBUG -- : gzip response
+I, [2014-04-21T14:10:04.501924 #71048]  INFO -- : Net::HTTP::Get: /
+D, [2014-04-21T14:10:04.502017 #71048] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:10:04.502055 #71048] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:10:04.502089 #71048] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:10:04.502120 #71048] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:10:04.502153 #71048] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:10:04.502187 #71048] DEBUG -- : request-header: host => www.dwd.de
+I, [2014-04-21T14:10:04.683105 #71048]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:10:04.683187 #71048] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:10:04 GMT
+D, [2014-04-21T14:10:04.683212 #71048] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:10:04.683234 #71048] DEBUG -- : response-header: set-cookie => active-cluster=cluster1; path=/; domain=.dwd.de
+D, [2014-04-21T14:10:04.683256 #71048] DEBUG -- : response-header: last-modified => Mon, 21 Apr 2014 12:09:02 GMT
+D, [2014-04-21T14:10:04.683277 #71048] DEBUG -- : response-header: etag => "b4b251-d8df-4f78c5d75924f"
+D, [2014-04-21T14:10:04.683298 #71048] DEBUG -- : response-header: accept-ranges => bytes
+D, [2014-04-21T14:10:04.683319 #71048] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2014-04-21T14:10:04.683340 #71048] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:10:04.683360 #71048] DEBUG -- : response-header: content-length => 9666
+D, [2014-04-21T14:10:04.683381 #71048] DEBUG -- : response-header: keep-alive => timeout=15, max=100
+D, [2014-04-21T14:10:04.683402 #71048] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:10:04.683423 #71048] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2014-04-21T14:10:04.683549 #71048] DEBUG -- : Read 1050 bytes (1050 total)
+D, [2014-04-21T14:10:04.683691 #71048] DEBUG -- : Read 1452 bytes (2502 total)
+D, [2014-04-21T14:10:04.728981 #71048] DEBUG -- : Read 1452 bytes (3954 total)
+D, [2014-04-21T14:10:04.729876 #71048] DEBUG -- : Read 1452 bytes (5406 total)
+D, [2014-04-21T14:10:04.730896 #71048] DEBUG -- : Read 1452 bytes (6858 total)
+D, [2014-04-21T14:10:04.776417 #71048] DEBUG -- : Read 1452 bytes (8310 total)
+D, [2014-04-21T14:10:04.776619 #71048] DEBUG -- : Read 1356 bytes (9666 total)
+D, [2014-04-21T14:10:04.776903 #71048] DEBUG -- : gzip response
+D, [2014-04-21T14:10:04.784668 #71048] DEBUG -- : saved cookie: active-cluster=cluster1
+I, [2014-04-21T14:10:04.793130 #71048]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_windowLabel=dwdwww_main_book&T17500013121287044130563gsbDocumentPath=&switchLang=de&_pageLabel=dwdwww_start
+D, [2014-04-21T14:10:04.793169 #71048] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:10:04.793193 #71048] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:10:04.793215 #71048] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:10:04.793236 #71048] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:10:04.793258 #71048] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:10:04.793279 #71048] DEBUG -- : request-header: cookie => active-cluster=cluster1
+D, [2014-04-21T14:10:04.793299 #71048] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:10:04.793324 #71048] DEBUG -- : request-header: referer => http://www.dwd.de/
+I, [2014-04-21T14:10:05.241214 #71048]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:10:05.241321 #71048] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:10:04 GMT
+D, [2014-04-21T14:10:05.241361 #71048] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:10:05.241391 #71048] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:10:05.241421 #71048] DEBUG -- : response-header: cache-control => no-cache="set-cookie"
+D, [2014-04-21T14:10:05.241451 #71048] DEBUG -- : response-header: set-cookie => JSESSIONID=6cLVTVKc6Gtkx2v07kNGFypkNZnzJxqd3xHJ127x1RpY2Zd3JhQ9!-1650919375!403284265; path=/
+D, [2014-04-21T14:10:05.241481 #71048] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:10:05.241510 #71048] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:10:05.241540 #71048] DEBUG -- : response-header: keep-alive => timeout=15, max=99
+D, [2014-04-21T14:10:05.241569 #71048] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:10:05.241598 #71048] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:10:05.242120 #71048] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:10:05.242273 #71048] DEBUG -- : Read 1284 bytes (1284 total)
+D, [2014-04-21T14:10:05.242324 #71048] DEBUG -- : Read 33 bytes (1317 total)
+D, [2014-04-21T14:10:05.242371 #71048] DEBUG -- : Read 529 bytes (1846 total)
+D, [2014-04-21T14:10:05.242447 #71048] DEBUG -- : Read 72 bytes (1918 total)
+D, [2014-04-21T14:10:05.242492 #71048] DEBUG -- : Read 414 bytes (2332 total)
+D, [2014-04-21T14:10:05.242552 #71048] DEBUG -- : Read 79 bytes (2411 total)
+D, [2014-04-21T14:10:05.242604 #71048] DEBUG -- : Read 401 bytes (2812 total)
+D, [2014-04-21T14:10:05.242651 #71048] DEBUG -- : Read 418 bytes (3230 total)
+D, [2014-04-21T14:10:05.242712 #71048] DEBUG -- : Read 171 bytes (3401 total)
+D, [2014-04-21T14:10:05.242761 #71048] DEBUG -- : Read 243 bytes (3644 total)
+D, [2014-04-21T14:10:05.242816 #71048] DEBUG -- : Read 138 bytes (3782 total)
+D, [2014-04-21T14:10:05.242873 #71048] DEBUG -- : Read 108 bytes (3890 total)
+D, [2014-04-21T14:10:05.242927 #71048] DEBUG -- : Read 163 bytes (4053 total)
+D, [2014-04-21T14:10:05.243006 #71048] DEBUG -- : Read 118 bytes (4171 total)
+D, [2014-04-21T14:10:05.243061 #71048] DEBUG -- : Read 104 bytes (4275 total)
+D, [2014-04-21T14:10:05.243105 #71048] DEBUG -- : Read 175 bytes (4450 total)
+D, [2014-04-21T14:10:05.243159 #71048] DEBUG -- : Read 156 bytes (4606 total)
+D, [2014-04-21T14:10:05.243213 #71048] DEBUG -- : Read 337 bytes (4943 total)
+D, [2014-04-21T14:10:05.243257 #71048] DEBUG -- : Read 204 bytes (5147 total)
+D, [2014-04-21T14:10:05.243357 #71048] DEBUG -- : Read 1698 bytes (6845 total)
+D, [2014-04-21T14:10:05.243402 #71048] DEBUG -- : Read 13 bytes (6858 total)
+D, [2014-04-21T14:10:05.243452 #71048] DEBUG -- : Read 1447 bytes (8305 total)
+D, [2014-04-21T14:10:05.243495 #71048] DEBUG -- : Read 219 bytes (8524 total)
+D, [2014-04-21T14:10:05.243562 #71048] DEBUG -- : Read 11 bytes (8535 total)
+D, [2014-04-21T14:10:05.243606 #71048] DEBUG -- : Read 37 bytes (8572 total)
+D, [2014-04-21T14:10:05.243653 #71048] DEBUG -- : Read 137 bytes (8709 total)
+D, [2014-04-21T14:10:05.243700 #71048] DEBUG -- : Read 180 bytes (8889 total)
+D, [2014-04-21T14:10:05.243743 #71048] DEBUG -- : Read 163 bytes (9052 total)
+D, [2014-04-21T14:10:05.243790 #71048] DEBUG -- : Read 154 bytes (9206 total)
+D, [2014-04-21T14:10:05.243832 #71048] DEBUG -- : Read 135 bytes (9341 total)
+D, [2014-04-21T14:10:05.243879 #71048] DEBUG -- : Read 306 bytes (9647 total)
+D, [2014-04-21T14:10:05.243934 #71048] DEBUG -- : Read 101 bytes (9748 total)
+D, [2014-04-21T14:10:05.244029 #71048] DEBUG -- : Read 109 bytes (9857 total)
+D, [2014-04-21T14:10:05.244074 #71048] DEBUG -- : Read 91 bytes (9948 total)
+D, [2014-04-21T14:10:05.244120 #71048] DEBUG -- : Read 61 bytes (10009 total)
+D, [2014-04-21T14:10:05.244164 #71048] DEBUG -- : Read 117 bytes (10126 total)
+D, [2014-04-21T14:10:05.244206 #71048] DEBUG -- : Read 112 bytes (10238 total)
+D, [2014-04-21T14:10:05.244249 #71048] DEBUG -- : Read 325 bytes (10563 total)
+D, [2014-04-21T14:10:05.244341 #71048] DEBUG -- : Read 293 bytes (10856 total)
+D, [2014-04-21T14:10:05.244399 #71048] DEBUG -- : Read 254 bytes (11110 total)
+D, [2014-04-21T14:10:05.244452 #71048] DEBUG -- : Read 127 bytes (11237 total)
+D, [2014-04-21T14:10:05.244530 #71048] DEBUG -- : Read 10 bytes (11247 total)
+D, [2014-04-21T14:10:05.244651 #71048] DEBUG -- : gzip response
+D, [2014-04-21T14:10:05.249617 #71048] DEBUG -- : saved cookie: JSESSIONID=6cLVTVKc6Gtkx2v07kNGFypkNZnzJxqd3xHJ127x1RpY2Zd3JhQ9!-1650919375!403284265
+I, [2014-04-21T14:10:05.255764 #71048]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop;jsessionid=6cLVTVKc6Gtkx2v07kNGFypkNZnzJxqd3xHJ127x1RpY2Zd3JhQ9!-1650919375!403284265?_nfpb=true&_pageLabel=dwdwww_spezielle_nutzer&_nfls=false
+D, [2014-04-21T14:10:05.255801 #71048] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:10:05.255860 #71048] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:10:05.255893 #71048] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:10:05.255917 #71048] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:10:05.255938 #71048] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:10:05.255960 #71048] DEBUG -- : request-header: cookie => JSESSIONID=6cLVTVKc6Gtkx2v07kNGFypkNZnzJxqd3xHJ127x1RpY2Zd3JhQ9!-1650919375!403284265; active-cluster=cluster1
+D, [2014-04-21T14:10:05.255981 #71048] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:10:05.256007 #71048] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_windowLabel=dwdwww_main_book&T17500013121287044130563gsbDocumentPath=&switchLang=de&_pageLabel=dwdwww_start
+I, [2014-04-21T14:10:05.547566 #71048]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:10:05.547690 #71048] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:10:05 GMT
+D, [2014-04-21T14:10:05.547736 #71048] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:10:05.547776 #71048] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:10:05.547813 #71048] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:10:05.547852 #71048] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:10:05.547891 #71048] DEBUG -- : response-header: keep-alive => timeout=15, max=98
+D, [2014-04-21T14:10:05.547926 #71048] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:10:05.547963 #71048] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:10:05.548005 #71048] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:10:05.548183 #71048] DEBUG -- : Read 1215 bytes (1215 total)
+D, [2014-04-21T14:10:05.548243 #71048] DEBUG -- : Read 75 bytes (1290 total)
+D, [2014-04-21T14:10:05.548328 #71048] DEBUG -- : Read 576 bytes (1866 total)
+D, [2014-04-21T14:10:05.548389 #71048] DEBUG -- : Read 711 bytes (2577 total)
+D, [2014-04-21T14:10:05.548454 #71048] DEBUG -- : Read 429 bytes (3006 total)
+D, [2014-04-21T14:10:05.548543 #71048] DEBUG -- : Read 8 bytes (3014 total)
+D, [2014-04-21T14:10:05.548611 #71048] DEBUG -- : Read 182 bytes (3196 total)
+D, [2014-04-21T14:10:05.548681 #71048] DEBUG -- : Read 580 bytes (3776 total)
+D, [2014-04-21T14:10:05.548805 #71048] DEBUG -- : Read 774 bytes (4550 total)
+D, [2014-04-21T14:10:05.548875 #71048] DEBUG -- : Read 226 bytes (4776 total)
+D, [2014-04-21T14:10:05.548938 #71048] DEBUG -- : Read 352 bytes (5128 total)
+D, [2014-04-21T14:10:05.549000 #71048] DEBUG -- : Read 243 bytes (5371 total)
+D, [2014-04-21T14:10:05.549064 #71048] DEBUG -- : Read 254 bytes (5625 total)
+D, [2014-04-21T14:10:05.549118 #71048] DEBUG -- : Read 129 bytes (5754 total)
+D, [2014-04-21T14:10:05.549170 #71048] DEBUG -- : Read 157 bytes (5911 total)
+D, [2014-04-21T14:10:05.549228 #71048] DEBUG -- : Read 122 bytes (6033 total)
+D, [2014-04-21T14:10:05.549347 #71048] DEBUG -- : Read 142 bytes (6175 total)
+D, [2014-04-21T14:10:05.549404 #71048] DEBUG -- : Read 125 bytes (6300 total)
+D, [2014-04-21T14:10:05.549477 #71048] DEBUG -- : Read 164 bytes (6464 total)
+D, [2014-04-21T14:10:05.549531 #71048] DEBUG -- : Read 587 bytes (7051 total)
+D, [2014-04-21T14:10:05.549583 #71048] DEBUG -- : Read 10 bytes (7061 total)
+D, [2014-04-21T14:10:05.549717 #71048] DEBUG -- : gzip response
+I, [2014-04-21T14:10:05.559625 #71048]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt&activePage=&_nfls=false
+D, [2014-04-21T14:10:05.559667 #71048] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:10:05.559695 #71048] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:10:05.559726 #71048] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:10:05.559773 #71048] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:10:05.559802 #71048] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:10:05.559828 #71048] DEBUG -- : request-header: cookie => JSESSIONID=6cLVTVKc6Gtkx2v07kNGFypkNZnzJxqd3xHJ127x1RpY2Zd3JhQ9!-1650919375!403284265; active-cluster=cluster1
+D, [2014-04-21T14:10:05.559852 #71048] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:10:05.559883 #71048] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop;jsessionid=6cLVTVKc6Gtkx2v07kNGFypkNZnzJxqd3xHJ127x1RpY2Zd3JhQ9!-1650919375!403284265?_nfpb=true&_pageLabel=dwdwww_spezielle_nutzer&_nfls=false
+I, [2014-04-21T14:10:05.740617 #71048]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:10:05.740722 #71048] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:10:05 GMT
+D, [2014-04-21T14:10:05.740761 #71048] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:10:05.740835 #71048] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:10:05.740870 #71048] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:10:05.740903 #71048] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:10:05.740937 #71048] DEBUG -- : response-header: keep-alive => timeout=15, max=97
+D, [2014-04-21T14:10:05.740970 #71048] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:10:05.741003 #71048] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:10:05.741036 #71048] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:10:05.741128 #71048] DEBUG -- : Read 1214 bytes (1214 total)
+D, [2014-04-21T14:10:05.741182 #71048] DEBUG -- : Read 76 bytes (1290 total)
+D, [2014-04-21T14:10:05.741252 #71048] DEBUG -- : Read 476 bytes (1766 total)
+D, [2014-04-21T14:10:05.741304 #71048] DEBUG -- : Read 156 bytes (1922 total)
+D, [2014-04-21T14:10:05.741354 #71048] DEBUG -- : Read 163 bytes (2085 total)
+D, [2014-04-21T14:10:05.742674 #71048] DEBUG -- : Read 496 bytes (2581 total)
+D, [2014-04-21T14:10:05.743236 #71048] DEBUG -- : Read 329 bytes (2910 total)
+D, [2014-04-21T14:10:05.743305 #71048] DEBUG -- : Read 38 bytes (2948 total)
+D, [2014-04-21T14:10:05.747599 #71048] DEBUG -- : Read 959 bytes (3907 total)
+D, [2014-04-21T14:10:05.747684 #71048] DEBUG -- : Read 324 bytes (4231 total)
+D, [2014-04-21T14:10:05.747740 #71048] DEBUG -- : Read 189 bytes (4420 total)
+D, [2014-04-21T14:10:05.747790 #71048] DEBUG -- : Read 144 bytes (4564 total)
+D, [2014-04-21T14:10:05.747843 #71048] DEBUG -- : Read 94 bytes (4658 total)
+D, [2014-04-21T14:10:05.748010 #71048] DEBUG -- : Read 366 bytes (5024 total)
+D, [2014-04-21T14:10:05.748120 #71048] DEBUG -- : Read 214 bytes (5238 total)
+D, [2014-04-21T14:10:05.748425 #71048] DEBUG -- : Read 17 bytes (5255 total)
+D, [2014-04-21T14:10:05.748858 #71048] DEBUG -- : Read 10 bytes (5265 total)
+D, [2014-04-21T14:10:05.749006 #71048] DEBUG -- : gzip response
+I, [2014-04-21T14:10:05.756507 #71048]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&activePage=&_nfls=false
+D, [2014-04-21T14:10:05.756563 #71048] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:10:05.756596 #71048] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:10:05.756630 #71048] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:10:05.756660 #71048] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:10:05.756689 #71048] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:10:05.756717 #71048] DEBUG -- : request-header: cookie => JSESSIONID=6cLVTVKc6Gtkx2v07kNGFypkNZnzJxqd3xHJ127x1RpY2Zd3JhQ9!-1650919375!403284265; active-cluster=cluster1
+D, [2014-04-21T14:10:05.756745 #71048] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:10:05.756807 #71048] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt&activePage=&_nfls=false
+I, [2014-04-21T14:10:06.109075 #71048]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:10:06.109201 #71048] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:10:05 GMT
+D, [2014-04-21T14:10:06.109262 #71048] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:10:06.109310 #71048] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:10:06.109355 #71048] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:10:06.109406 #71048] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:10:06.109447 #71048] DEBUG -- : response-header: keep-alive => timeout=15, max=96
+D, [2014-04-21T14:10:06.109481 #71048] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:10:06.109519 #71048] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:10:06.109554 #71048] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:10:06.109655 #71048] DEBUG -- : Read 1162 bytes (1162 total)
+D, [2014-04-21T14:10:06.109713 #71048] DEBUG -- : Read 109 bytes (1271 total)
+D, [2014-04-21T14:10:06.109765 #71048] DEBUG -- : Read 10 bytes (1281 total)
+D, [2014-04-21T14:10:06.110805 #71048] DEBUG -- : Read 616 bytes (1897 total)
+D, [2014-04-21T14:10:06.110998 #71048] DEBUG -- : Read 633 bytes (2530 total)
+D, [2014-04-21T14:10:06.111119 #71048] DEBUG -- : Read 528 bytes (3058 total)
+D, [2014-04-21T14:10:06.111205 #71048] DEBUG -- : Read 9 bytes (3067 total)
+D, [2014-04-21T14:10:06.112091 #71048] DEBUG -- : Read 17 bytes (3084 total)
+D, [2014-04-21T14:10:06.112243 #71048] DEBUG -- : Read 289 bytes (3373 total)
+D, [2014-04-21T14:10:06.113236 #71048] DEBUG -- : Read 249 bytes (3622 total)
+D, [2014-04-21T14:10:06.113372 #71048] DEBUG -- : Read 138 bytes (3760 total)
+D, [2014-04-21T14:10:06.113568 #71048] DEBUG -- : Read 156 bytes (3916 total)
+D, [2014-04-21T14:10:06.114642 #71048] DEBUG -- : Read 69 bytes (3985 total)
+D, [2014-04-21T14:10:06.115356 #71048] DEBUG -- : Read 172 bytes (4157 total)
+D, [2014-04-21T14:10:06.115917 #71048] DEBUG -- : Read 85 bytes (4242 total)
+D, [2014-04-21T14:10:06.118444 #71048] DEBUG -- : Read 130 bytes (4372 total)
+D, [2014-04-21T14:10:06.118608 #71048] DEBUG -- : Read 291 bytes (4663 total)
+D, [2014-04-21T14:10:06.118753 #71048] DEBUG -- : Read 133 bytes (4796 total)
+D, [2014-04-21T14:10:06.118820 #71048] DEBUG -- : Read 84 bytes (4880 total)
+D, [2014-04-21T14:10:06.118877 #71048] DEBUG -- : Read 154 bytes (5034 total)
+D, [2014-04-21T14:10:06.120014 #71048] DEBUG -- : Read 102 bytes (5136 total)
+D, [2014-04-21T14:10:06.120191 #71048] DEBUG -- : Read 132 bytes (5268 total)
+D, [2014-04-21T14:10:06.120306 #71048] DEBUG -- : Read 133 bytes (5401 total)
+D, [2014-04-21T14:10:06.121378 #71048] DEBUG -- : Read 119 bytes (5520 total)
+D, [2014-04-21T14:10:06.122328 #71048] DEBUG -- : Read 65 bytes (5585 total)
+D, [2014-04-21T14:10:06.122888 #71048] DEBUG -- : Read 77 bytes (5662 total)
+D, [2014-04-21T14:10:06.123515 #71048] DEBUG -- : Read 97 bytes (5759 total)
+D, [2014-04-21T14:10:06.123989 #71048] DEBUG -- : Read 184 bytes (5943 total)
+D, [2014-04-21T14:10:06.124435 #71048] DEBUG -- : Read 467 bytes (6410 total)
+D, [2014-04-21T14:10:06.125241 #71048] DEBUG -- : Read 254 bytes (6664 total)
+D, [2014-04-21T14:10:06.125852 #71048] DEBUG -- : Read 25 bytes (6689 total)
+D, [2014-04-21T14:10:06.125900 #71048] DEBUG -- : Read 10 bytes (6699 total)
+D, [2014-04-21T14:10:06.126081 #71048] DEBUG -- : gzip response
+I, [2014-04-21T14:10:06.136592 #71048]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Content%2FSchifffahrt%2FSeewetter%2FSeewetter__Mittelmeer__teaser.html&_state=maximized&_windowLabel=T18605818401151909357330&lastPageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter
+D, [2014-04-21T14:10:06.136649 #71048] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:10:06.136674 #71048] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:10:06.136696 #71048] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:10:06.136717 #71048] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:10:06.136738 #71048] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:10:06.136762 #71048] DEBUG -- : request-header: cookie => JSESSIONID=6cLVTVKc6Gtkx2v07kNGFypkNZnzJxqd3xHJ127x1RpY2Zd3JhQ9!-1650919375!403284265; active-cluster=cluster1
+D, [2014-04-21T14:10:06.136783 #71048] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:10:06.136810 #71048] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&activePage=&_nfls=false
+I, [2014-04-21T14:10:06.280169 #71048]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:10:06.280286 #71048] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:10:06 GMT
+D, [2014-04-21T14:10:06.280353 #71048] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:10:06.280441 #71048] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:10:06.280491 #71048] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:10:06.280543 #71048] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:10:06.280580 #71048] DEBUG -- : response-header: keep-alive => timeout=15, max=95
+D, [2014-04-21T14:10:06.280620 #71048] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:10:06.280653 #71048] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:10:06.280686 #71048] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:10:06.280791 #71048] DEBUG -- : Read 1162 bytes (1162 total)
+D, [2014-04-21T14:10:06.280850 #71048] DEBUG -- : Read 109 bytes (1271 total)
+D, [2014-04-21T14:10:06.280908 #71048] DEBUG -- : Read 10 bytes (1281 total)
+D, [2014-04-21T14:10:06.280965 #71048] DEBUG -- : Read 644 bytes (1925 total)
+D, [2014-04-21T14:10:06.281423 #71048] DEBUG -- : Read 9 bytes (1934 total)
+D, [2014-04-21T14:10:06.282385 #71048] DEBUG -- : Read 628 bytes (2562 total)
+D, [2014-04-21T14:10:06.282485 #71048] DEBUG -- : Read 70 bytes (2632 total)
+D, [2014-04-21T14:10:06.283850 #71048] DEBUG -- : Read 790 bytes (3422 total)
+D, [2014-04-21T14:10:06.283920 #71048] DEBUG -- : Read 14 bytes (3436 total)
+D, [2014-04-21T14:10:06.284716 #71048] DEBUG -- : Read 718 bytes (4154 total)
+D, [2014-04-21T14:10:06.285068 #71048] DEBUG -- : Read 285 bytes (4439 total)
+D, [2014-04-21T14:10:06.285635 #71048] DEBUG -- : Read 268 bytes (4707 total)
+D, [2014-04-21T14:10:06.286162 #71048] DEBUG -- : Read 94 bytes (4801 total)
+D, [2014-04-21T14:10:06.286524 #71048] DEBUG -- : Read 10 bytes (4811 total)
+D, [2014-04-21T14:10:06.286705 #71048] DEBUG -- : gzip response
+I, [2014-04-21T14:10:06.293889 #71048]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Navigation%2FSchifffahrt%2FSeewetter%2FSeewetterbericht__24__strecke__node.html%3F__nnn%3Dtrue
+D, [2014-04-21T14:10:06.293940 #71048] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:10:06.293973 #71048] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:10:06.294003 #71048] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:10:06.294032 #71048] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:10:06.294064 #71048] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:10:06.294118 #71048] DEBUG -- : request-header: cookie => JSESSIONID=6cLVTVKc6Gtkx2v07kNGFypkNZnzJxqd3xHJ127x1RpY2Zd3JhQ9!-1650919375!403284265; active-cluster=cluster1
+D, [2014-04-21T14:10:06.294153 #71048] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:10:06.294191 #71048] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Content%2FSchifffahrt%2FSeewetter%2FSeewetter__Mittelmeer__teaser.html&_state=maximized&_windowLabel=T18605818401151909357330&lastPageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter
+I, [2014-04-21T14:10:06.673916 #71048]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:10:06.674044 #71048] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:10:06 GMT
+D, [2014-04-21T14:10:06.674106 #71048] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:10:06.674142 #71048] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:10:06.674177 #71048] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:10:06.674247 #71048] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:10:06.674282 #71048] DEBUG -- : response-header: keep-alive => timeout=15, max=94
+D, [2014-04-21T14:10:06.674315 #71048] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:10:06.674348 #71048] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:10:06.674385 #71048] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:10:06.674483 #71048] DEBUG -- : Read 627 bytes (627 total)
+D, [2014-04-21T14:10:06.674548 #71048] DEBUG -- : Read 668 bytes (1295 total)
+D, [2014-04-21T14:10:06.674604 #71048] DEBUG -- : Read 248 bytes (1543 total)
+D, [2014-04-21T14:10:06.674664 #71048] DEBUG -- : Read 450 bytes (1993 total)
+D, [2014-04-21T14:10:06.674722 #71048] DEBUG -- : Read 119 bytes (2112 total)
+D, [2014-04-21T14:10:06.674776 #71048] DEBUG -- : Read 531 bytes (2643 total)
+D, [2014-04-21T14:10:06.674864 #71048] DEBUG -- : Read 76 bytes (2719 total)
+D, [2014-04-21T14:10:06.674923 #71048] DEBUG -- : Read 278 bytes (2997 total)
+D, [2014-04-21T14:10:06.675015 #71048] DEBUG -- : Read 587 bytes (3584 total)
+D, [2014-04-21T14:10:06.675078 #71048] DEBUG -- : Read 413 bytes (3997 total)
+D, [2014-04-21T14:10:06.675136 #71048] DEBUG -- : Read 187 bytes (4184 total)
+D, [2014-04-21T14:10:06.675194 #71048] DEBUG -- : Read 99 bytes (4283 total)
+D, [2014-04-21T14:10:06.675249 #71048] DEBUG -- : Read 227 bytes (4510 total)
+D, [2014-04-21T14:10:06.675303 #71048] DEBUG -- : Read 324 bytes (4834 total)
+D, [2014-04-21T14:10:06.675365 #71048] DEBUG -- : Read 296 bytes (5130 total)
+D, [2014-04-21T14:10:06.675458 #71048] DEBUG -- : Read 8 bytes (5138 total)
+D, [2014-04-21T14:10:06.675513 #71048] DEBUG -- : Read 267 bytes (5405 total)
+D, [2014-04-21T14:10:06.675566 #71048] DEBUG -- : Read 269 bytes (5674 total)
+D, [2014-04-21T14:10:06.675623 #71048] DEBUG -- : Read 8 bytes (5682 total)
+D, [2014-04-21T14:10:06.675702 #71048] DEBUG -- : Read 257 bytes (5939 total)
+D, [2014-04-21T14:10:06.675845 #71048] DEBUG -- : Read 11 bytes (5950 total)
+D, [2014-04-21T14:10:06.675898 #71048] DEBUG -- : Read 265 bytes (6215 total)
+D, [2014-04-21T14:10:06.675969 #71048] DEBUG -- : Read 11 bytes (6226 total)
+D, [2014-04-21T14:10:06.676033 #71048] DEBUG -- : Read 194 bytes (6420 total)
+D, [2014-04-21T14:10:06.676088 #71048] DEBUG -- : Read 65 bytes (6485 total)
+D, [2014-04-21T14:10:06.676138 #71048] DEBUG -- : Read 200 bytes (6685 total)
+D, [2014-04-21T14:10:06.676221 #71048] DEBUG -- : Read 77 bytes (6762 total)
+D, [2014-04-21T14:10:06.676276 #71048] DEBUG -- : Read 208 bytes (6970 total)
+D, [2014-04-21T14:10:06.676326 #71048] DEBUG -- : Read 66 bytes (7036 total)
+D, [2014-04-21T14:10:06.676375 #71048] DEBUG -- : Read 80 bytes (7116 total)
+D, [2014-04-21T14:10:06.676428 #71048] DEBUG -- : Read 188 bytes (7304 total)
+D, [2014-04-21T14:10:06.676477 #71048] DEBUG -- : Read 71 bytes (7375 total)
+D, [2014-04-21T14:10:06.676565 #71048] DEBUG -- : Read 142 bytes (7517 total)
+D, [2014-04-21T14:10:06.676622 #71048] DEBUG -- : Read 72 bytes (7589 total)
+D, [2014-04-21T14:10:06.676676 #71048] DEBUG -- : Read 201 bytes (7790 total)
+D, [2014-04-21T14:10:06.676725 #71048] DEBUG -- : Read 50 bytes (7840 total)
+D, [2014-04-21T14:10:06.676817 #71048] DEBUG -- : Read 562 bytes (8402 total)
+D, [2014-04-21T14:10:06.676888 #71048] DEBUG -- : Read 439 bytes (8841 total)
+D, [2014-04-21T14:10:06.676943 #71048] DEBUG -- : Read 251 bytes (9092 total)
+D, [2014-04-21T14:10:06.677011 #71048] DEBUG -- : Read 116 bytes (9208 total)
+D, [2014-04-21T14:10:06.677061 #71048] DEBUG -- : Read 10 bytes (9218 total)
+D, [2014-04-21T14:10:06.677172 #71048] DEBUG -- : gzip response
+I, [2014-04-21T14:17:48.506455 #71327]  INFO -- : Net::HTTP::Get: /
+D, [2014-04-21T14:17:48.506510 #71327] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:17:48.506535 #71327] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:17:48.506559 #71327] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:17:48.506581 #71327] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:17:48.506602 #71327] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:17:48.506623 #71327] DEBUG -- : request-header: host => www.dwd.de
+I, [2014-04-21T14:17:48.621409 #71327]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:17:48.621526 #71327] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:17:48 GMT
+D, [2014-04-21T14:17:48.621573 #71327] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:17:48.621615 #71327] DEBUG -- : response-header: set-cookie => active-cluster=cluster1; path=/; domain=.dwd.de
+D, [2014-04-21T14:17:48.621660 #71327] DEBUG -- : response-header: last-modified => Mon, 21 Apr 2014 12:15:02 GMT
+D, [2014-04-21T14:17:48.621697 #71327] DEBUG -- : response-header: etag => "b4b251-d8df-4f78c72f14d8e"
+D, [2014-04-21T14:17:48.621735 #71327] DEBUG -- : response-header: accept-ranges => bytes
+D, [2014-04-21T14:17:48.621775 #71327] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2014-04-21T14:17:48.621808 #71327] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:17:48.621850 #71327] DEBUG -- : response-header: content-length => 9669
+D, [2014-04-21T14:17:48.621889 #71327] DEBUG -- : response-header: keep-alive => timeout=15, max=100
+D, [2014-04-21T14:17:48.621929 #71327] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:17:48.621970 #71327] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2014-04-21T14:17:48.622176 #71327] DEBUG -- : Read 1050 bytes (1050 total)
+D, [2014-04-21T14:17:48.622253 #71327] DEBUG -- : Read 1452 bytes (2502 total)
+D, [2014-04-21T14:17:48.667127 #71327] DEBUG -- : Read 1452 bytes (3954 total)
+D, [2014-04-21T14:17:48.668041 #71327] DEBUG -- : Read 1452 bytes (5406 total)
+D, [2014-04-21T14:17:48.669065 #71327] DEBUG -- : Read 1452 bytes (6858 total)
+D, [2014-04-21T14:17:48.713140 #71327] DEBUG -- : Read 1452 bytes (8310 total)
+D, [2014-04-21T14:17:48.715068 #71327] DEBUG -- : Read 1359 bytes (9669 total)
+D, [2014-04-21T14:17:48.715416 #71327] DEBUG -- : gzip response
+D, [2014-04-21T14:17:48.723789 #71327] DEBUG -- : saved cookie: active-cluster=cluster1
+I, [2014-04-21T14:17:48.732914 #71327]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_windowLabel=dwdwww_main_book&T17500013121287044130563gsbDocumentPath=&switchLang=de&_pageLabel=dwdwww_start
+D, [2014-04-21T14:17:48.732960 #71327] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:17:48.732984 #71327] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:17:48.733005 #71327] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:17:48.733030 #71327] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:17:48.733067 #71327] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:17:48.733090 #71327] DEBUG -- : request-header: cookie => active-cluster=cluster1
+D, [2014-04-21T14:17:48.733110 #71327] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:17:48.733134 #71327] DEBUG -- : request-header: referer => http://www.dwd.de/
+I, [2014-04-21T14:17:49.360928 #71327]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:17:49.361032 #71327] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:17:48 GMT
+D, [2014-04-21T14:17:49.361070 #71327] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:17:49.361104 #71327] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:17:49.361136 #71327] DEBUG -- : response-header: cache-control => no-cache="set-cookie"
+D, [2014-04-21T14:17:49.361169 #71327] DEBUG -- : response-header: set-cookie => JSESSIONID=cLpsTVMN8wvCkvf1QT50vHNMv9G8vlsppQW298qpPmRhXn5W2fZ2!-479415820!-1968117494; path=/
+D, [2014-04-21T14:17:49.361202 #71327] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:17:49.361234 #71327] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:17:49.361266 #71327] DEBUG -- : response-header: keep-alive => timeout=15, max=99
+D, [2014-04-21T14:17:49.361297 #71327] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:17:49.361328 #71327] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:17:49.361360 #71327] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:17:49.361526 #71327] DEBUG -- : Read 1055 bytes (1055 total)
+D, [2014-04-21T14:17:49.361585 #71327] DEBUG -- : Read 288 bytes (1343 total)
+D, [2014-04-21T14:17:49.361638 #71327] DEBUG -- : Read 393 bytes (1736 total)
+D, [2014-04-21T14:17:49.361724 #71327] DEBUG -- : Read 219 bytes (1955 total)
+D, [2014-04-21T14:17:49.361774 #71327] DEBUG -- : Read 205 bytes (2160 total)
+D, [2014-04-21T14:17:49.361823 #71327] DEBUG -- : Read 165 bytes (2325 total)
+D, [2014-04-21T14:17:49.361885 #71327] DEBUG -- : Read 161 bytes (2486 total)
+D, [2014-04-21T14:17:49.361936 #71327] DEBUG -- : Read 405 bytes (2891 total)
+D, [2014-04-21T14:17:49.361987 #71327] DEBUG -- : Read 418 bytes (3309 total)
+D, [2014-04-21T14:17:49.362037 #71327] DEBUG -- : Read 171 bytes (3480 total)
+D, [2014-04-21T14:17:49.362085 #71327] DEBUG -- : Read 243 bytes (3723 total)
+D, [2014-04-21T14:17:49.362132 #71327] DEBUG -- : Read 140 bytes (3863 total)
+D, [2014-04-21T14:17:49.362180 #71327] DEBUG -- : Read 108 bytes (3971 total)
+D, [2014-04-21T14:17:49.362272 #71327] DEBUG -- : Read 162 bytes (4133 total)
+D, [2014-04-21T14:17:49.362322 #71327] DEBUG -- : Read 118 bytes (4251 total)
+D, [2014-04-21T14:17:49.363129 #71327] DEBUG -- : Read 104 bytes (4355 total)
+D, [2014-04-21T14:17:49.363214 #71327] DEBUG -- : Read 175 bytes (4530 total)
+D, [2014-04-21T14:17:49.363267 #71327] DEBUG -- : Read 154 bytes (4684 total)
+D, [2014-04-21T14:17:49.363321 #71327] DEBUG -- : Read 337 bytes (5021 total)
+D, [2014-04-21T14:17:49.363370 #71327] DEBUG -- : Read 204 bytes (5225 total)
+D, [2014-04-21T14:17:49.363453 #71327] DEBUG -- : Read 1697 bytes (6922 total)
+D, [2014-04-21T14:17:49.363503 #71327] DEBUG -- : Read 13 bytes (6935 total)
+D, [2014-04-21T14:17:49.364451 #71327] DEBUG -- : Read 1666 bytes (8601 total)
+D, [2014-04-21T14:17:49.364526 #71327] DEBUG -- : Read 10 bytes (8611 total)
+D, [2014-04-21T14:17:49.364580 #71327] DEBUG -- : Read 37 bytes (8648 total)
+D, [2014-04-21T14:17:49.364629 #71327] DEBUG -- : Read 137 bytes (8785 total)
+D, [2014-04-21T14:17:49.364681 #71327] DEBUG -- : Read 180 bytes (8965 total)
+D, [2014-04-21T14:17:49.364734 #71327] DEBUG -- : Read 163 bytes (9128 total)
+D, [2014-04-21T14:17:49.364786 #71327] DEBUG -- : Read 154 bytes (9282 total)
+D, [2014-04-21T14:17:49.364852 #71327] DEBUG -- : Read 135 bytes (9417 total)
+D, [2014-04-21T14:17:49.364909 #71327] DEBUG -- : Read 306 bytes (9723 total)
+D, [2014-04-21T14:17:49.365040 #71327] DEBUG -- : Read 101 bytes (9824 total)
+D, [2014-04-21T14:17:49.365090 #71327] DEBUG -- : Read 109 bytes (9933 total)
+D, [2014-04-21T14:17:49.365139 #71327] DEBUG -- : Read 142 bytes (10075 total)
+D, [2014-04-21T14:17:49.365204 #71327] DEBUG -- : Read 117 bytes (10192 total)
+D, [2014-04-21T14:17:49.365258 #71327] DEBUG -- : Read 112 bytes (10304 total)
+D, [2014-04-21T14:17:49.365309 #71327] DEBUG -- : Read 325 bytes (10629 total)
+D, [2014-04-21T14:17:49.365367 #71327] DEBUG -- : Read 525 bytes (11154 total)
+D, [2014-04-21T14:17:49.365414 #71327] DEBUG -- : Read 8 bytes (11162 total)
+D, [2014-04-21T14:17:49.365472 #71327] DEBUG -- : Read 127 bytes (11289 total)
+D, [2014-04-21T14:17:49.365551 #71327] DEBUG -- : Read 10 bytes (11299 total)
+D, [2014-04-21T14:17:49.365679 #71327] DEBUG -- : gzip response
+D, [2014-04-21T14:17:49.371178 #71327] DEBUG -- : saved cookie: JSESSIONID=cLpsTVMN8wvCkvf1QT50vHNMv9G8vlsppQW298qpPmRhXn5W2fZ2!-479415820!-1968117494
+I, [2014-04-21T14:17:49.378209 #71327]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop;jsessionid=cLpsTVMN8wvCkvf1QT50vHNMv9G8vlsppQW298qpPmRhXn5W2fZ2!-479415820!-1968117494?_nfpb=true&_pageLabel=dwdwww_spezielle_nutzer&_nfls=false
+D, [2014-04-21T14:17:49.378247 #71327] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:17:49.378275 #71327] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:17:49.378334 #71327] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:17:49.378355 #71327] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:17:49.378374 #71327] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:17:49.378394 #71327] DEBUG -- : request-header: cookie => JSESSIONID=cLpsTVMN8wvCkvf1QT50vHNMv9G8vlsppQW298qpPmRhXn5W2fZ2!-479415820!-1968117494; active-cluster=cluster1
+D, [2014-04-21T14:17:49.378413 #71327] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:17:49.378440 #71327] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_windowLabel=dwdwww_main_book&T17500013121287044130563gsbDocumentPath=&switchLang=de&_pageLabel=dwdwww_start
+I, [2014-04-21T14:17:49.770619 #71327]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:17:49.770713 #71327] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:17:49 GMT
+D, [2014-04-21T14:17:49.770744 #71327] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:17:49.770772 #71327] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:17:49.770800 #71327] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:17:49.770828 #71327] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:17:49.770855 #71327] DEBUG -- : response-header: keep-alive => timeout=15, max=98
+D, [2014-04-21T14:17:49.770882 #71327] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:17:49.770908 #71327] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:17:49.770935 #71327] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:17:49.771065 #71327] DEBUG -- : Read 1216 bytes (1216 total)
+D, [2014-04-21T14:17:49.771124 #71327] DEBUG -- : Read 75 bytes (1291 total)
+D, [2014-04-21T14:17:49.771174 #71327] DEBUG -- : Read 576 bytes (1867 total)
+D, [2014-04-21T14:17:49.771216 #71327] DEBUG -- : Read 8 bytes (1875 total)
+D, [2014-04-21T14:17:49.771265 #71327] DEBUG -- : Read 794 bytes (2669 total)
+D, [2014-04-21T14:17:49.771308 #71327] DEBUG -- : Read 359 bytes (3028 total)
+D, [2014-04-21T14:17:49.771348 #71327] DEBUG -- : Read 8 bytes (3036 total)
+D, [2014-04-21T14:17:49.771415 #71327] DEBUG -- : Read 284 bytes (3320 total)
+D, [2014-04-21T14:17:49.771528 #71327] DEBUG -- : Read 10 bytes (3330 total)
+D, [2014-04-21T14:17:49.771580 #71327] DEBUG -- : Read 17 bytes (3347 total)
+D, [2014-04-21T14:17:49.771627 #71327] DEBUG -- : Read 1312 bytes (4659 total)
+D, [2014-04-21T14:17:49.771699 #71327] DEBUG -- : Read 226 bytes (4885 total)
+D, [2014-04-21T14:17:49.771743 #71327] DEBUG -- : Read 352 bytes (5237 total)
+D, [2014-04-21T14:17:49.771784 #71327] DEBUG -- : Read 243 bytes (5480 total)
+D, [2014-04-21T14:17:49.771828 #71327] DEBUG -- : Read 254 bytes (5734 total)
+D, [2014-04-21T14:17:49.771869 #71327] DEBUG -- : Read 129 bytes (5863 total)
+D, [2014-04-21T14:17:49.771923 #71327] DEBUG -- : Read 157 bytes (6020 total)
+D, [2014-04-21T14:17:49.772020 #71327] DEBUG -- : Read 122 bytes (6142 total)
+D, [2014-04-21T14:17:49.772062 #71327] DEBUG -- : Read 142 bytes (6284 total)
+D, [2014-04-21T14:17:49.772112 #71327] DEBUG -- : Read 125 bytes (6409 total)
+D, [2014-04-21T14:17:49.772155 #71327] DEBUG -- : Read 164 bytes (6573 total)
+D, [2014-04-21T14:17:49.772200 #71327] DEBUG -- : Read 609 bytes (7182 total)
+D, [2014-04-21T14:17:49.772240 #71327] DEBUG -- : Read 10 bytes (7192 total)
+D, [2014-04-21T14:17:49.772347 #71327] DEBUG -- : gzip response
+I, [2014-04-21T14:17:49.781563 #71327]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop;jsessionid=4LQHTVHLnthyBhfwkYmcndWTHjkTjLqj1sP1LL7hgswCRwvf05mT!-479415820!-1968117494?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt&activePage=&_nfls=false
+D, [2014-04-21T14:17:49.781633 #71327] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:17:49.781657 #71327] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:17:49.781678 #71327] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:17:49.781699 #71327] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:17:49.781720 #71327] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:17:49.781740 #71327] DEBUG -- : request-header: cookie => JSESSIONID=cLpsTVMN8wvCkvf1QT50vHNMv9G8vlsppQW298qpPmRhXn5W2fZ2!-479415820!-1968117494; active-cluster=cluster1
+D, [2014-04-21T14:17:49.781761 #71327] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:17:49.781787 #71327] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop;jsessionid=cLpsTVMN8wvCkvf1QT50vHNMv9G8vlsppQW298qpPmRhXn5W2fZ2!-479415820!-1968117494?_nfpb=true&_pageLabel=dwdwww_spezielle_nutzer&_nfls=false
+I, [2014-04-21T14:17:49.995733 #71327]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:17:49.995843 #71327] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:17:50 GMT
+D, [2014-04-21T14:17:49.995884 #71327] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:17:49.995924 #71327] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:17:49.995958 #71327] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:17:49.995990 #71327] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:17:49.996030 #71327] DEBUG -- : response-header: keep-alive => timeout=15, max=97
+D, [2014-04-21T14:17:49.996063 #71327] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:17:49.996094 #71327] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:17:49.996125 #71327] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:17:49.996224 #71327] DEBUG -- : Read 1162 bytes (1162 total)
+D, [2014-04-21T14:17:49.996286 #71327] DEBUG -- : Read 112 bytes (1274 total)
+D, [2014-04-21T14:17:49.996353 #71327] DEBUG -- : Read 610 bytes (1884 total)
+D, [2014-04-21T14:17:49.996407 #71327] DEBUG -- : Read 8 bytes (1892 total)
+D, [2014-04-21T14:17:49.996457 #71327] DEBUG -- : Read 632 bytes (2524 total)
+D, [2014-04-21T14:17:49.996860 #71327] DEBUG -- : Read 356 bytes (2880 total)
+D, [2014-04-21T14:17:49.998566 #71327] DEBUG -- : Read 959 bytes (3839 total)
+D, [2014-04-21T14:17:49.998726 #71327] DEBUG -- : Read 324 bytes (4163 total)
+D, [2014-04-21T14:17:49.998810 #71327] DEBUG -- : Read 189 bytes (4352 total)
+D, [2014-04-21T14:17:50.000219 #71327] DEBUG -- : Read 144 bytes (4496 total)
+D, [2014-04-21T14:17:50.000947 #71327] DEBUG -- : Read 94 bytes (4590 total)
+D, [2014-04-21T14:17:50.001538 #71327] DEBUG -- : Read 559 bytes (5149 total)
+D, [2014-04-21T14:17:50.001889 #71327] DEBUG -- : Read 8 bytes (5157 total)
+D, [2014-04-21T14:17:50.001958 #71327] DEBUG -- : Read 16 bytes (5173 total)
+D, [2014-04-21T14:17:50.002009 #71327] DEBUG -- : Read 10 bytes (5183 total)
+D, [2014-04-21T14:17:50.002149 #71327] DEBUG -- : gzip response
+I, [2014-04-21T14:17:50.009387 #71327]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&activePage=&_nfls=false
+D, [2014-04-21T14:17:50.009440 #71327] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:17:50.009467 #71327] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:17:50.009490 #71327] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:17:50.009514 #71327] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:17:50.009541 #71327] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:17:50.009568 #71327] DEBUG -- : request-header: cookie => JSESSIONID=cLpsTVMN8wvCkvf1QT50vHNMv9G8vlsppQW298qpPmRhXn5W2fZ2!-479415820!-1968117494; active-cluster=cluster1
+D, [2014-04-21T14:17:50.009592 #71327] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:17:50.009622 #71327] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop;jsessionid=4LQHTVHLnthyBhfwkYmcndWTHjkTjLqj1sP1LL7hgswCRwvf05mT!-479415820!-1968117494?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt&activePage=&_nfls=false
+I, [2014-04-21T14:17:50.485564 #71327]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:17:50.485677 #71327] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:17:50 GMT
+D, [2014-04-21T14:17:50.485778 #71327] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:17:50.485812 #71327] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:17:50.485846 #71327] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:17:50.485878 #71327] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:17:50.485910 #71327] DEBUG -- : response-header: keep-alive => timeout=15, max=96
+D, [2014-04-21T14:17:50.485941 #71327] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:17:50.485973 #71327] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:17:50.486006 #71327] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:17:50.486104 #71327] DEBUG -- : Read 1209 bytes (1209 total)
+D, [2014-04-21T14:17:50.486164 #71327] DEBUG -- : Read 76 bytes (1285 total)
+D, [2014-04-21T14:17:50.486226 #71327] DEBUG -- : Read 609 bytes (1894 total)
+D, [2014-04-21T14:17:50.486276 #71327] DEBUG -- : Read 20 bytes (1914 total)
+D, [2014-04-21T14:17:50.486330 #71327] DEBUG -- : Read 633 bytes (2547 total)
+D, [2014-04-21T14:17:50.486420 #71327] DEBUG -- : Read 528 bytes (3075 total)
+D, [2014-04-21T14:17:50.486471 #71327] DEBUG -- : Read 9 bytes (3084 total)
+D, [2014-04-21T14:17:50.486519 #71327] DEBUG -- : Read 17 bytes (3101 total)
+D, [2014-04-21T14:17:50.486599 #71327] DEBUG -- : Read 289 bytes (3390 total)
+D, [2014-04-21T14:17:50.486656 #71327] DEBUG -- : Read 249 bytes (3639 total)
+D, [2014-04-21T14:17:50.486706 #71327] DEBUG -- : Read 138 bytes (3777 total)
+D, [2014-04-21T14:17:50.486763 #71327] DEBUG -- : Read 156 bytes (3933 total)
+D, [2014-04-21T14:17:50.486817 #71327] DEBUG -- : Read 69 bytes (4002 total)
+D, [2014-04-21T14:17:50.486866 #71327] DEBUG -- : Read 172 bytes (4174 total)
+D, [2014-04-21T14:17:50.486976 #71327] DEBUG -- : Read 85 bytes (4259 total)
+D, [2014-04-21T14:17:50.487032 #71327] DEBUG -- : Read 130 bytes (4389 total)
+D, [2014-04-21T14:17:50.487081 #71327] DEBUG -- : Read 291 bytes (4680 total)
+D, [2014-04-21T14:17:50.487158 #71327] DEBUG -- : Read 70 bytes (4750 total)
+D, [2014-04-21T14:17:50.487208 #71327] DEBUG -- : Read 75 bytes (4825 total)
+D, [2014-04-21T14:17:50.487256 #71327] DEBUG -- : Read 84 bytes (4909 total)
+D, [2014-04-21T14:17:50.487303 #71327] DEBUG -- : Read 154 bytes (5063 total)
+D, [2014-04-21T14:17:50.487350 #71327] DEBUG -- : Read 102 bytes (5165 total)
+D, [2014-04-21T14:17:50.487448 #71327] DEBUG -- : Read 132 bytes (5297 total)
+D, [2014-04-21T14:17:50.487498 #71327] DEBUG -- : Read 133 bytes (5430 total)
+D, [2014-04-21T14:17:50.487546 #71327] DEBUG -- : Read 119 bytes (5549 total)
+D, [2014-04-21T14:17:50.487611 #71327] DEBUG -- : Read 65 bytes (5614 total)
+D, [2014-04-21T14:17:50.487666 #71327] DEBUG -- : Read 165 bytes (5779 total)
+D, [2014-04-21T14:17:50.487715 #71327] DEBUG -- : Read 184 bytes (5963 total)
+D, [2014-04-21T14:17:50.487763 #71327] DEBUG -- : Read 307 bytes (6270 total)
+D, [2014-04-21T14:17:50.487820 #71327] DEBUG -- : Read 425 bytes (6695 total)
+D, [2014-04-21T14:17:50.487870 #71327] DEBUG -- : Read 25 bytes (6720 total)
+D, [2014-04-21T14:17:50.487982 #71327] DEBUG -- : Read 10 bytes (6730 total)
+D, [2014-04-21T14:17:50.488102 #71327] DEBUG -- : gzip response
+I, [2014-04-21T14:17:50.499179 #71327]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Content%2FSchifffahrt%2FSeewetter%2FSeewetter__Mittelmeer__teaser.html&_state=maximized&_windowLabel=T18605818401151909357330&lastPageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter
+D, [2014-04-21T14:17:50.499239 #71327] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:17:50.499266 #71327] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:17:50.499290 #71327] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:17:50.499314 #71327] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:17:50.499338 #71327] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:17:50.499361 #71327] DEBUG -- : request-header: cookie => JSESSIONID=cLpsTVMN8wvCkvf1QT50vHNMv9G8vlsppQW298qpPmRhXn5W2fZ2!-479415820!-1968117494; active-cluster=cluster1
+D, [2014-04-21T14:17:50.499384 #71327] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:17:50.499491 #71327] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&activePage=&_nfls=false
+I, [2014-04-21T14:17:50.643752 #71327]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:17:50.643852 #71327] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:17:50 GMT
+D, [2014-04-21T14:17:50.643890 #71327] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:17:50.643922 #71327] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:17:50.643955 #71327] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:17:50.643987 #71327] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:17:50.644019 #71327] DEBUG -- : response-header: keep-alive => timeout=15, max=95
+D, [2014-04-21T14:17:50.644051 #71327] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:17:50.644083 #71327] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:17:50.644115 #71327] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:17:50.644196 #71327] DEBUG -- : Read 1209 bytes (1209 total)
+D, [2014-04-21T14:17:50.644286 #71327] DEBUG -- : Read 76 bytes (1285 total)
+D, [2014-04-21T14:17:50.645040 #71327] DEBUG -- : Read 634 bytes (1919 total)
+D, [2014-04-21T14:17:50.645112 #71327] DEBUG -- : Read 22 bytes (1941 total)
+D, [2014-04-21T14:17:50.646631 #71327] DEBUG -- : Read 629 bytes (2570 total)
+D, [2014-04-21T14:17:50.646710 #71327] DEBUG -- : Read 70 bytes (2640 total)
+D, [2014-04-21T14:17:50.646792 #71327] DEBUG -- : Read 315 bytes (2955 total)
+D, [2014-04-21T14:17:50.647391 #71327] DEBUG -- : Read 510 bytes (3465 total)
+D, [2014-04-21T14:17:50.647772 #71327] DEBUG -- : Read 627 bytes (4092 total)
+D, [2014-04-21T14:17:50.647831 #71327] DEBUG -- : Read 109 bytes (4201 total)
+D, [2014-04-21T14:17:50.649125 #71327] DEBUG -- : Read 530 bytes (4731 total)
+D, [2014-04-21T14:17:50.649707 #71327] DEBUG -- : Read 16 bytes (4747 total)
+D, [2014-04-21T14:17:50.649756 #71327] DEBUG -- : Read 85 bytes (4832 total)
+D, [2014-04-21T14:17:50.649797 #71327] DEBUG -- : Read 10 bytes (4842 total)
+D, [2014-04-21T14:17:50.649910 #71327] DEBUG -- : gzip response
+I, [2014-04-21T14:17:50.656447 #71327]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Navigation%2FSchifffahrt%2FSeewetter%2FSeewetterbericht__24__strecke__node.html%3F__nnn%3Dtrue
+D, [2014-04-21T14:17:50.656485 #71327] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:17:50.656511 #71327] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:17:50.656535 #71327] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:17:50.656558 #71327] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:17:50.656607 #71327] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:17:50.656632 #71327] DEBUG -- : request-header: cookie => JSESSIONID=cLpsTVMN8wvCkvf1QT50vHNMv9G8vlsppQW298qpPmRhXn5W2fZ2!-479415820!-1968117494; active-cluster=cluster1
+D, [2014-04-21T14:17:50.656656 #71327] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:17:50.656684 #71327] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Content%2FSchifffahrt%2FSeewetter%2FSeewetter__Mittelmeer__teaser.html&_state=maximized&_windowLabel=T18605818401151909357330&lastPageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter
+I, [2014-04-21T14:17:50.951448 #71327]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:17:50.951550 #71327] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:17:50 GMT
+D, [2014-04-21T14:17:50.951589 #71327] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:17:50.951617 #71327] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:17:50.951645 #71327] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:17:50.951673 #71327] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:17:50.951700 #71327] DEBUG -- : response-header: keep-alive => timeout=15, max=94
+D, [2014-04-21T14:17:50.951726 #71327] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:17:50.951753 #71327] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:17:50.951780 #71327] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:17:50.951870 #71327] DEBUG -- : Read 627 bytes (627 total)
+D, [2014-04-21T14:17:50.951919 #71327] DEBUG -- : Read 668 bytes (1295 total)
+D, [2014-04-21T14:17:50.951991 #71327] DEBUG -- : Read 248 bytes (1543 total)
+D, [2014-04-21T14:17:50.952040 #71327] DEBUG -- : Read 450 bytes (1993 total)
+D, [2014-04-21T14:17:50.952085 #71327] DEBUG -- : Read 119 bytes (2112 total)
+D, [2014-04-21T14:17:50.952127 #71327] DEBUG -- : Read 531 bytes (2643 total)
+D, [2014-04-21T14:17:50.952187 #71327] DEBUG -- : Read 76 bytes (2719 total)
+D, [2014-04-21T14:17:50.953302 #71327] DEBUG -- : Read 834 bytes (3553 total)
+D, [2014-04-21T14:17:50.953417 #71327] DEBUG -- : Read 12 bytes (3565 total)
+D, [2014-04-21T14:17:50.953479 #71327] DEBUG -- : Read 515 bytes (4080 total)
+D, [2014-04-21T14:17:50.953545 #71327] DEBUG -- : Read 68 bytes (4148 total)
+D, [2014-04-21T14:17:50.953682 #71327] DEBUG -- : Read 217 bytes (4365 total)
+D, [2014-04-21T14:17:50.953745 #71327] DEBUG -- : Read 112 bytes (4477 total)
+D, [2014-04-21T14:17:50.953806 #71327] DEBUG -- : Read 247 bytes (4724 total)
+D, [2014-04-21T14:17:50.953863 #71327] DEBUG -- : Read 99 bytes (4823 total)
+D, [2014-04-21T14:17:50.954154 #71327] DEBUG -- : Read 9 bytes (4832 total)
+D, [2014-04-21T14:17:50.954219 #71327] DEBUG -- : Read 293 bytes (5125 total)
+D, [2014-04-21T14:17:50.955127 #71327] DEBUG -- : Read 31 bytes (5156 total)
+D, [2014-04-21T14:17:50.955195 #71327] DEBUG -- : Read 249 bytes (5405 total)
+D, [2014-04-21T14:17:50.955277 #71327] DEBUG -- : Read 36 bytes (5441 total)
+D, [2014-04-21T14:17:50.955731 #71327] DEBUG -- : Read 244 bytes (5685 total)
+D, [2014-04-21T14:17:50.956307 #71327] DEBUG -- : Read 26 bytes (5711 total)
+D, [2014-04-21T14:17:50.956359 #71327] DEBUG -- : Read 62 bytes (5773 total)
+D, [2014-04-21T14:17:50.957028 #71327] DEBUG -- : Read 195 bytes (5968 total)
+D, [2014-04-21T14:17:50.957481 #71327] DEBUG -- : Read 85 bytes (6053 total)
+D, [2014-04-21T14:17:50.957540 #71327] DEBUG -- : Read 195 bytes (6248 total)
+D, [2014-04-21T14:17:50.958480 #71327] DEBUG -- : Read 70 bytes (6318 total)
+D, [2014-04-21T14:17:50.958536 #71327] DEBUG -- : Read 32 bytes (6350 total)
+D, [2014-04-21T14:17:50.958587 #71327] DEBUG -- : Read 175 bytes (6525 total)
+D, [2014-04-21T14:17:50.960728 #71327] DEBUG -- : Read 122 bytes (6647 total)
+D, [2014-04-21T14:17:50.960836 #71327] DEBUG -- : Read 158 bytes (6805 total)
+D, [2014-04-21T14:17:50.960901 #71327] DEBUG -- : Read 60 bytes (6865 total)
+D, [2014-04-21T14:17:50.960999 #71327] DEBUG -- : Read 212 bytes (7077 total)
+D, [2014-04-21T14:17:50.961054 #71327] DEBUG -- : Read 57 bytes (7134 total)
+D, [2014-04-21T14:17:50.961108 #71327] DEBUG -- : Read 189 bytes (7323 total)
+D, [2014-04-21T14:17:50.961147 #71327] DEBUG -- : Read 28 bytes (7351 total)
+D, [2014-04-21T14:17:50.961819 #71327] DEBUG -- : Read 201 bytes (7552 total)
+D, [2014-04-21T14:17:50.962131 #71327] DEBUG -- : Read 22 bytes (7574 total)
+D, [2014-04-21T14:17:50.962743 #71327] DEBUG -- : Read 259 bytes (7833 total)
+D, [2014-04-21T14:17:50.963225 #71327] DEBUG -- : Read 10 bytes (7843 total)
+D, [2014-04-21T14:17:50.963771 #71327] DEBUG -- : Read 600 bytes (8443 total)
+D, [2014-04-21T14:17:50.964629 #71327] DEBUG -- : Read 665 bytes (9108 total)
+D, [2014-04-21T14:17:50.965868 #71327] DEBUG -- : Read 9 bytes (9117 total)
+D, [2014-04-21T14:17:50.965909 #71327] DEBUG -- : Read 116 bytes (9233 total)
+D, [2014-04-21T14:17:50.966106 #71327] DEBUG -- : Read 10 bytes (9243 total)
+D, [2014-04-21T14:17:50.966245 #71327] DEBUG -- : gzip response
+I, [2014-04-21T14:18:03.645768 #71448]  INFO -- : Net::HTTP::Get: /
+D, [2014-04-21T14:18:03.645836 #71448] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:18:03.645864 #71448] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:18:03.645890 #71448] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:18:03.645913 #71448] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:18:03.645935 #71448] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:18:03.645957 #71448] DEBUG -- : request-header: host => www.dwd.de
+I, [2014-04-21T14:18:03.796314 #71448]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:18:03.796405 #71448] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:18:03 GMT
+D, [2014-04-21T14:18:03.796436 #71448] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:18:03.796464 #71448] DEBUG -- : response-header: set-cookie => active-cluster=cluster1; path=/; domain=.dwd.de
+D, [2014-04-21T14:18:03.796497 #71448] DEBUG -- : response-header: last-modified => Mon, 21 Apr 2014 12:18:02 GMT
+D, [2014-04-21T14:18:03.796529 #71448] DEBUG -- : response-header: etag => "b4b251-d8de-4f78c7da76cc6"
+D, [2014-04-21T14:18:03.796563 #71448] DEBUG -- : response-header: accept-ranges => bytes
+D, [2014-04-21T14:18:03.796616 #71448] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2014-04-21T14:18:03.796645 #71448] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:18:03.796671 #71448] DEBUG -- : response-header: content-length => 9668
+D, [2014-04-21T14:18:03.796698 #71448] DEBUG -- : response-header: keep-alive => timeout=15, max=100
+D, [2014-04-21T14:18:03.796729 #71448] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:18:03.796756 #71448] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2014-04-21T14:18:03.796925 #71448] DEBUG -- : Read 1050 bytes (1050 total)
+D, [2014-04-21T14:18:03.796981 #71448] DEBUG -- : Read 1452 bytes (2502 total)
+D, [2014-04-21T14:18:03.842426 #71448] DEBUG -- : Read 1452 bytes (3954 total)
+D, [2014-04-21T14:18:03.842911 #71448] DEBUG -- : Read 1452 bytes (5406 total)
+D, [2014-04-21T14:18:03.845661 #71448] DEBUG -- : Read 1452 bytes (6858 total)
+D, [2014-04-21T14:18:03.888199 #71448] DEBUG -- : Read 1452 bytes (8310 total)
+D, [2014-04-21T14:18:03.889057 #71448] DEBUG -- : Read 1358 bytes (9668 total)
+D, [2014-04-21T14:18:03.889403 #71448] DEBUG -- : gzip response
+D, [2014-04-21T14:18:03.897141 #71448] DEBUG -- : saved cookie: active-cluster=cluster1
+I, [2014-04-21T14:18:03.905703 #71448]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_windowLabel=dwdwww_main_book&T17500013121287044130563gsbDocumentPath=&switchLang=de&_pageLabel=dwdwww_start
+D, [2014-04-21T14:18:03.905743 #71448] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:18:03.905766 #71448] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:18:03.905790 #71448] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:18:03.905811 #71448] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:18:03.905831 #71448] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:18:03.905851 #71448] DEBUG -- : request-header: cookie => active-cluster=cluster1
+D, [2014-04-21T14:18:03.905870 #71448] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:18:03.905894 #71448] DEBUG -- : request-header: referer => http://www.dwd.de/
+I, [2014-04-21T14:18:04.410975 #71448]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:18:04.411097 #71448] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:18:04 GMT
+D, [2014-04-21T14:18:04.411148 #71448] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:18:04.411185 #71448] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:18:04.411224 #71448] DEBUG -- : response-header: cache-control => no-cache="set-cookie"
+D, [2014-04-21T14:18:04.411267 #71448] DEBUG -- : response-header: set-cookie => JSESSIONID=5VvLTVMcLZdFQ4SLbNJxTlBgR5gL8V2QLhGMK1TD2yz2QPfw1mxl!26250099!-479415820; path=/
+D, [2014-04-21T14:18:04.411313 #71448] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:18:04.411346 #71448] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:18:04.411385 #71448] DEBUG -- : response-header: keep-alive => timeout=15, max=99
+D, [2014-04-21T14:18:04.411428 #71448] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:18:04.411456 #71448] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:18:04.411483 #71448] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:18:04.411662 #71448] DEBUG -- : Read 1055 bytes (1055 total)
+D, [2014-04-21T14:18:04.411724 #71448] DEBUG -- : Read 286 bytes (1341 total)
+D, [2014-04-21T14:18:04.411778 #71448] DEBUG -- : Read 279 bytes (1620 total)
+D, [2014-04-21T14:18:04.411854 #71448] DEBUG -- : Read 351 bytes (1971 total)
+D, [2014-04-21T14:18:04.411903 #71448] DEBUG -- : Read 37 bytes (2008 total)
+D, [2014-04-21T14:18:04.411961 #71448] DEBUG -- : Read 451 bytes (2459 total)
+D, [2014-04-21T14:18:04.412013 #71448] DEBUG -- : Read 399 bytes (2858 total)
+D, [2014-04-21T14:18:04.412086 #71448] DEBUG -- : Read 418 bytes (3276 total)
+D, [2014-04-21T14:18:04.412135 #71448] DEBUG -- : Read 171 bytes (3447 total)
+D, [2014-04-21T14:18:04.412189 #71448] DEBUG -- : Read 242 bytes (3689 total)
+D, [2014-04-21T14:18:04.412237 #71448] DEBUG -- : Read 84 bytes (3773 total)
+D, [2014-04-21T14:18:04.412282 #71448] DEBUG -- : Read 66 bytes (3839 total)
+D, [2014-04-21T14:18:04.412366 #71448] DEBUG -- : Read 108 bytes (3947 total)
+D, [2014-04-21T14:18:04.412419 #71448] DEBUG -- : Read 162 bytes (4109 total)
+D, [2014-04-21T14:18:04.412463 #71448] DEBUG -- : Read 118 bytes (4227 total)
+D, [2014-04-21T14:18:04.412507 #71448] DEBUG -- : Read 104 bytes (4331 total)
+D, [2014-04-21T14:18:04.412555 #71448] DEBUG -- : Read 175 bytes (4506 total)
+D, [2014-04-21T14:18:04.412620 #71448] DEBUG -- : Read 156 bytes (4662 total)
+D, [2014-04-21T14:18:04.412667 #71448] DEBUG -- : Read 337 bytes (4999 total)
+D, [2014-04-21T14:18:04.412712 #71448] DEBUG -- : Read 204 bytes (5203 total)
+D, [2014-04-21T14:18:04.412758 #71448] DEBUG -- : Read 495 bytes (5698 total)
+D, [2014-04-21T14:18:04.412824 #71448] DEBUG -- : Read 1239 bytes (6937 total)
+D, [2014-04-21T14:18:04.412894 #71448] DEBUG -- : Read 686 bytes (7623 total)
+D, [2014-04-21T14:18:04.412948 #71448] DEBUG -- : Read 1027 bytes (8650 total)
+D, [2014-04-21T14:18:04.412995 #71448] DEBUG -- : Read 40 bytes (8690 total)
+D, [2014-04-21T14:18:04.413036 #71448] DEBUG -- : Read 137 bytes (8827 total)
+D, [2014-04-21T14:18:04.413081 #71448] DEBUG -- : Read 180 bytes (9007 total)
+D, [2014-04-21T14:18:04.413126 #71448] DEBUG -- : Read 162 bytes (9169 total)
+D, [2014-04-21T14:18:04.413172 #71448] DEBUG -- : Read 154 bytes (9323 total)
+D, [2014-04-21T14:18:04.413219 #71448] DEBUG -- : Read 135 bytes (9458 total)
+D, [2014-04-21T14:18:04.413266 #71448] DEBUG -- : Read 306 bytes (9764 total)
+D, [2014-04-21T14:18:04.413377 #71448] DEBUG -- : Read 101 bytes (9865 total)
+D, [2014-04-21T14:18:04.413422 #71448] DEBUG -- : Read 109 bytes (9974 total)
+D, [2014-04-21T14:18:04.413467 #71448] DEBUG -- : Read 142 bytes (10116 total)
+D, [2014-04-21T14:18:04.413508 #71448] DEBUG -- : Read 117 bytes (10233 total)
+D, [2014-04-21T14:18:04.413549 #71448] DEBUG -- : Read 112 bytes (10345 total)
+D, [2014-04-21T14:18:04.413602 #71448] DEBUG -- : Read 325 bytes (10670 total)
+D, [2014-04-21T14:18:04.413645 #71448] DEBUG -- : Read 294 bytes (10964 total)
+D, [2014-04-21T14:18:04.413690 #71448] DEBUG -- : Read 251 bytes (11215 total)
+D, [2014-04-21T14:18:04.413814 #71448] DEBUG -- : Read 127 bytes (11342 total)
+D, [2014-04-21T14:18:04.413896 #71448] DEBUG -- : Read 10 bytes (11352 total)
+D, [2014-04-21T14:18:04.414016 #71448] DEBUG -- : gzip response
+D, [2014-04-21T14:18:04.419241 #71448] DEBUG -- : saved cookie: JSESSIONID=5VvLTVMcLZdFQ4SLbNJxTlBgR5gL8V2QLhGMK1TD2yz2QPfw1mxl!26250099!-479415820
+I, [2014-04-21T14:18:04.425726 #71448]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop;jsessionid=5VvLTVMcLZdFQ4SLbNJxTlBgR5gL8V2QLhGMK1TD2yz2QPfw1mxl!26250099!-479415820?_nfpb=true&_pageLabel=dwdwww_spezielle_nutzer&_nfls=false
+D, [2014-04-21T14:18:04.425770 #71448] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:18:04.425831 #71448] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:18:04.425859 #71448] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:18:04.425881 #71448] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:18:04.425901 #71448] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:18:04.425922 #71448] DEBUG -- : request-header: cookie => JSESSIONID=5VvLTVMcLZdFQ4SLbNJxTlBgR5gL8V2QLhGMK1TD2yz2QPfw1mxl!26250099!-479415820; active-cluster=cluster1
+D, [2014-04-21T14:18:04.425945 #71448] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:18:04.425971 #71448] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_windowLabel=dwdwww_main_book&T17500013121287044130563gsbDocumentPath=&switchLang=de&_pageLabel=dwdwww_start
+I, [2014-04-21T14:18:04.725388 #71448]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:18:04.725482 #71448] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:18:04 GMT
+D, [2014-04-21T14:18:04.725521 #71448] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:18:04.725554 #71448] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:18:04.725587 #71448] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:18:04.725619 #71448] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:18:04.725651 #71448] DEBUG -- : response-header: keep-alive => timeout=15, max=98
+D, [2014-04-21T14:18:04.725683 #71448] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:18:04.725714 #71448] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:18:04.725746 #71448] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:18:04.725898 #71448] DEBUG -- : Read 632 bytes (632 total)
+D, [2014-04-21T14:18:04.725958 #71448] DEBUG -- : Read 674 bytes (1306 total)
+D, [2014-04-21T14:18:04.726014 #71448] DEBUG -- : Read 576 bytes (1882 total)
+D, [2014-04-21T14:18:04.726065 #71448] DEBUG -- : Read 8 bytes (1890 total)
+D, [2014-04-21T14:18:04.726114 #71448] DEBUG -- : Read 275 bytes (2165 total)
+D, [2014-04-21T14:18:04.726184 #71448] DEBUG -- : Read 461 bytes (2626 total)
+D, [2014-04-21T14:18:04.726236 #71448] DEBUG -- : Read 174 bytes (2800 total)
+D, [2014-04-21T14:18:04.726285 #71448] DEBUG -- : Read 285 bytes (3085 total)
+D, [2014-04-21T14:18:04.726400 #71448] DEBUG -- : Read 136 bytes (3221 total)
+D, [2014-04-21T14:18:04.726449 #71448] DEBUG -- : Read 58 bytes (3279 total)
+D, [2014-04-21T14:18:04.728056 #71448] DEBUG -- : Read 1313 bytes (4592 total)
+D, [2014-04-21T14:18:04.728276 #71448] DEBUG -- : Read 226 bytes (4818 total)
+D, [2014-04-21T14:18:04.728337 #71448] DEBUG -- : Read 352 bytes (5170 total)
+D, [2014-04-21T14:18:04.728388 #71448] DEBUG -- : Read 243 bytes (5413 total)
+D, [2014-04-21T14:18:04.729019 #71448] DEBUG -- : Read 254 bytes (5667 total)
+D, [2014-04-21T14:18:04.729450 #71448] DEBUG -- : Read 129 bytes (5796 total)
+D, [2014-04-21T14:18:04.730055 #71448] DEBUG -- : Read 157 bytes (5953 total)
+D, [2014-04-21T14:18:04.730677 #71448] DEBUG -- : Read 122 bytes (6075 total)
+D, [2014-04-21T14:18:04.731257 #71448] DEBUG -- : Read 142 bytes (6217 total)
+D, [2014-04-21T14:18:04.731444 #71448] DEBUG -- : Read 125 bytes (6342 total)
+D, [2014-04-21T14:18:04.732032 #71448] DEBUG -- : Read 164 bytes (6506 total)
+D, [2014-04-21T14:18:04.733173 #71448] DEBUG -- : Read 587 bytes (7093 total)
+D, [2014-04-21T14:18:04.733234 #71448] DEBUG -- : Read 10 bytes (7103 total)
+D, [2014-04-21T14:18:04.733422 #71448] DEBUG -- : gzip response
+I, [2014-04-21T14:18:04.742398 #71448]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt&activePage=&_nfls=false
+D, [2014-04-21T14:18:04.742440 #71448] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:18:04.742467 #71448] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:18:04.742491 #71448] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:18:04.742536 #71448] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:18:04.742561 #71448] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:18:04.742584 #71448] DEBUG -- : request-header: cookie => JSESSIONID=5VvLTVMcLZdFQ4SLbNJxTlBgR5gL8V2QLhGMK1TD2yz2QPfw1mxl!26250099!-479415820; active-cluster=cluster1
+D, [2014-04-21T14:18:04.742607 #71448] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:18:04.742639 #71448] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop;jsessionid=5VvLTVMcLZdFQ4SLbNJxTlBgR5gL8V2QLhGMK1TD2yz2QPfw1mxl!26250099!-479415820?_nfpb=true&_pageLabel=dwdwww_spezielle_nutzer&_nfls=false
+I, [2014-04-21T14:18:04.939638 #71448]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:18:04.939739 #71448] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:18:05 GMT
+D, [2014-04-21T14:18:04.939776 #71448] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:18:04.939808 #71448] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:18:04.939840 #71448] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:18:04.939872 #71448] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:18:04.939904 #71448] DEBUG -- : response-header: keep-alive => timeout=15, max=97
+D, [2014-04-21T14:18:04.939935 #71448] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:18:04.939966 #71448] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:18:04.939997 #71448] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:18:04.940086 #71448] DEBUG -- : Read 630 bytes (630 total)
+D, [2014-04-21T14:18:04.940187 #71448] DEBUG -- : Read 670 bytes (1300 total)
+D, [2014-04-21T14:18:04.940260 #71448] DEBUG -- : Read 247 bytes (1547 total)
+D, [2014-04-21T14:18:04.940313 #71448] DEBUG -- : Read 399 bytes (1946 total)
+D, [2014-04-21T14:18:04.940758 #71448] DEBUG -- : Read 163 bytes (2109 total)
+D, [2014-04-21T14:18:04.941049 #71448] DEBUG -- : Read 496 bytes (2605 total)
+D, [2014-04-21T14:18:04.942105 #71448] DEBUG -- : Read 329 bytes (2934 total)
+D, [2014-04-21T14:18:04.942178 #71448] DEBUG -- : Read 38 bytes (2972 total)
+D, [2014-04-21T14:18:04.944184 #71448] DEBUG -- : Read 959 bytes (3931 total)
+D, [2014-04-21T14:18:04.944353 #71448] DEBUG -- : Read 324 bytes (4255 total)
+D, [2014-04-21T14:18:04.944480 #71448] DEBUG -- : Read 189 bytes (4444 total)
+D, [2014-04-21T14:18:04.944848 #71448] DEBUG -- : Read 144 bytes (4588 total)
+D, [2014-04-21T14:18:04.944929 #71448] DEBUG -- : Read 94 bytes (4682 total)
+D, [2014-04-21T14:18:04.946019 #71448] DEBUG -- : Read 559 bytes (5241 total)
+D, [2014-04-21T14:18:04.946190 #71448] DEBUG -- : Read 8 bytes (5249 total)
+D, [2014-04-21T14:18:04.946730 #71448] DEBUG -- : Read 16 bytes (5265 total)
+D, [2014-04-21T14:18:04.946785 #71448] DEBUG -- : Read 10 bytes (5275 total)
+D, [2014-04-21T14:18:04.947028 #71448] DEBUG -- : gzip response
+I, [2014-04-21T14:18:04.954245 #71448]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&activePage=&_nfls=false
+D, [2014-04-21T14:18:04.954291 #71448] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:18:04.954322 #71448] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:18:04.954426 #71448] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:18:04.954455 #71448] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:18:04.954482 #71448] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:18:04.954510 #71448] DEBUG -- : request-header: cookie => JSESSIONID=5VvLTVMcLZdFQ4SLbNJxTlBgR5gL8V2QLhGMK1TD2yz2QPfw1mxl!26250099!-479415820; active-cluster=cluster1
+D, [2014-04-21T14:18:04.954538 #71448] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:18:04.954572 #71448] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt&activePage=&_nfls=false
+I, [2014-04-21T14:18:05.332681 #71448]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:18:05.332802 #71448] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:18:05 GMT
+D, [2014-04-21T14:18:05.332842 #71448] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:18:05.332876 #71448] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:18:05.332938 #71448] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:18:05.332988 #71448] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:18:05.333017 #71448] DEBUG -- : response-header: keep-alive => timeout=15, max=96
+D, [2014-04-21T14:18:05.333065 #71448] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:18:05.333102 #71448] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:18:05.333135 #71448] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:18:05.333284 #71448] DEBUG -- : Read 1271 bytes (1271 total)
+D, [2014-04-21T14:18:05.333329 #71448] DEBUG -- : Read 10 bytes (1281 total)
+D, [2014-04-21T14:18:05.333401 #71448] DEBUG -- : Read 616 bytes (1897 total)
+D, [2014-04-21T14:18:05.333459 #71448] DEBUG -- : Read 9 bytes (1906 total)
+D, [2014-04-21T14:18:05.333531 #71448] DEBUG -- : Read 633 bytes (2539 total)
+D, [2014-04-21T14:18:05.333592 #71448] DEBUG -- : Read 528 bytes (3067 total)
+D, [2014-04-21T14:18:05.333648 #71448] DEBUG -- : Read 9 bytes (3076 total)
+D, [2014-04-21T14:18:05.333974 #71448] DEBUG -- : Read 17 bytes (3093 total)
+D, [2014-04-21T14:18:05.334028 #71448] DEBUG -- : Read 289 bytes (3382 total)
+D, [2014-04-21T14:18:05.334159 #71448] DEBUG -- : Read 249 bytes (3631 total)
+D, [2014-04-21T14:18:05.334214 #71448] DEBUG -- : Read 138 bytes (3769 total)
+D, [2014-04-21T14:18:05.334269 #71448] DEBUG -- : Read 156 bytes (3925 total)
+D, [2014-04-21T14:18:05.334325 #71448] DEBUG -- : Read 69 bytes (3994 total)
+D, [2014-04-21T14:18:05.334378 #71448] DEBUG -- : Read 172 bytes (4166 total)
+D, [2014-04-21T14:18:05.334434 #71448] DEBUG -- : Read 85 bytes (4251 total)
+D, [2014-04-21T14:18:05.334487 #71448] DEBUG -- : Read 130 bytes (4381 total)
+D, [2014-04-21T14:18:05.334550 #71448] DEBUG -- : Read 291 bytes (4672 total)
+D, [2014-04-21T14:18:05.334668 #71448] DEBUG -- : Read 133 bytes (4805 total)
+D, [2014-04-21T14:18:05.334724 #71448] DEBUG -- : Read 84 bytes (4889 total)
+D, [2014-04-21T14:18:05.334777 #71448] DEBUG -- : Read 154 bytes (5043 total)
+D, [2014-04-21T14:18:05.334830 #71448] DEBUG -- : Read 102 bytes (5145 total)
+D, [2014-04-21T14:18:05.334882 #71448] DEBUG -- : Read 132 bytes (5277 total)
+D, [2014-04-21T14:18:05.334930 #71448] DEBUG -- : Read 133 bytes (5410 total)
+D, [2014-04-21T14:18:05.334982 #71448] DEBUG -- : Read 119 bytes (5529 total)
+D, [2014-04-21T14:18:05.335030 #71448] DEBUG -- : Read 65 bytes (5594 total)
+D, [2014-04-21T14:18:05.335143 #71448] DEBUG -- : Read 165 bytes (5759 total)
+D, [2014-04-21T14:18:05.335193 #71448] DEBUG -- : Read 184 bytes (5943 total)
+D, [2014-04-21T14:18:05.335260 #71448] DEBUG -- : Read 698 bytes (6641 total)
+D, [2014-04-21T14:18:05.335313 #71448] DEBUG -- : Read 9 bytes (6650 total)
+D, [2014-04-21T14:18:05.335365 #71448] DEBUG -- : Read 23 bytes (6673 total)
+D, [2014-04-21T14:18:05.335418 #71448] DEBUG -- : Read 10 bytes (6683 total)
+D, [2014-04-21T14:18:05.335575 #71448] DEBUG -- : gzip response
+I, [2014-04-21T14:18:05.346387 #71448]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Content%2FSchifffahrt%2FSeewetter%2FSeewetter__Mittelmeer__teaser.html&_state=maximized&_windowLabel=T18605818401151909357330&lastPageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter
+D, [2014-04-21T14:18:05.346425 #71448] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:18:05.346448 #71448] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:18:05.346468 #71448] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:18:05.346489 #71448] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:18:05.346508 #71448] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:18:05.346531 #71448] DEBUG -- : request-header: cookie => JSESSIONID=5VvLTVMcLZdFQ4SLbNJxTlBgR5gL8V2QLhGMK1TD2yz2QPfw1mxl!26250099!-479415820; active-cluster=cluster1
+D, [2014-04-21T14:18:05.346564 #71448] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:18:05.346591 #71448] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&activePage=&_nfls=false
+I, [2014-04-21T14:18:06.021702 #71448]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:18:06.021828 #71448] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:18:05 GMT
+D, [2014-04-21T14:18:06.021894 #71448] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:18:06.021986 #71448] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:18:06.022036 #71448] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:18:06.022082 #71448] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:18:06.022127 #71448] DEBUG -- : response-header: keep-alive => timeout=15, max=95
+D, [2014-04-21T14:18:06.022164 #71448] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:18:06.022196 #71448] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:18:06.022227 #71448] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:18:06.022332 #71448] DEBUG -- : Read 1162 bytes (1162 total)
+D, [2014-04-21T14:18:06.022392 #71448] DEBUG -- : Read 47 bytes (1209 total)
+D, [2014-04-21T14:18:06.022444 #71448] DEBUG -- : Read 76 bytes (1285 total)
+D, [2014-04-21T14:18:06.024558 #71448] DEBUG -- : Read 634 bytes (1919 total)
+D, [2014-04-21T14:18:06.024713 #71448] DEBUG -- : Read 22 bytes (1941 total)
+D, [2014-04-21T14:18:06.024823 #71448] DEBUG -- : Read 603 bytes (2544 total)
+D, [2014-04-21T14:18:06.024953 #71448] DEBUG -- : Read 33 bytes (2577 total)
+D, [2014-04-21T14:18:06.025007 #71448] DEBUG -- : Read 70 bytes (2647 total)
+D, [2014-04-21T14:18:06.025084 #71448] DEBUG -- : Read 315 bytes (2962 total)
+D, [2014-04-21T14:18:06.025138 #71448] DEBUG -- : Read 510 bytes (3472 total)
+D, [2014-04-21T14:18:06.025188 #71448] DEBUG -- : Read 723 bytes (4195 total)
+D, [2014-04-21T14:18:06.025427 #71448] DEBUG -- : Read 285 bytes (4480 total)
+D, [2014-04-21T14:18:06.025498 #71448] DEBUG -- : Read 268 bytes (4748 total)
+D, [2014-04-21T14:18:06.026647 #71448] DEBUG -- : Read 94 bytes (4842 total)
+D, [2014-04-21T14:18:06.026716 #71448] DEBUG -- : Read 10 bytes (4852 total)
+D, [2014-04-21T14:18:06.026892 #71448] DEBUG -- : gzip response
+I, [2014-04-21T14:18:06.034206 #71448]  INFO -- : Net::HTTP::Get: /bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Navigation%2FSchifffahrt%2FSeewetter%2FSeewetterbericht__24__strecke__node.html%3F__nnn%3Dtrue
+D, [2014-04-21T14:18:06.034256 #71448] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2014-04-21T14:18:06.034289 #71448] DEBUG -- : request-header: accept => */*
+D, [2014-04-21T14:18:06.034318 #71448] DEBUG -- : request-header: user-agent => Mechanize/2.7.3 Ruby/2.1.1p76 (http://github.com/sparklemotion/mechanize/)
+D, [2014-04-21T14:18:06.034346 #71448] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2014-04-21T14:18:06.034373 #71448] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2014-04-21T14:18:06.034400 #71448] DEBUG -- : request-header: cookie => JSESSIONID=5VvLTVMcLZdFQ4SLbNJxTlBgR5gL8V2QLhGMK1TD2yz2QPfw1mxl!26250099!-479415820; active-cluster=cluster1
+D, [2014-04-21T14:18:06.034427 #71448] DEBUG -- : request-header: host => www.dwd.de
+D, [2014-04-21T14:18:06.034466 #71448] DEBUG -- : request-header: referer => http://www.dwd.de/bvbw/appmanager/bvbw/dwdwwwDesktop?_nfpb=true&_pageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter&T18605818401151909357330gsbDocumentPath=Content%2FSchifffahrt%2FSeewetter%2FSeewetter__Mittelmeer__teaser.html&_state=maximized&_windowLabel=T18605818401151909357330&lastPageLabel=_dwdwww_spezielle_nutzer_schiffffahrt_seewetter
+I, [2014-04-21T14:18:06.309048 #71448]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2014-04-21T14:18:06.309176 #71448] DEBUG -- : response-header: date => Mon, 21 Apr 2014 12:18:06 GMT
+D, [2014-04-21T14:18:06.309236 #71448] DEBUG -- : response-header: server => Apache
+D, [2014-04-21T14:18:06.309289 #71448] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2014-04-21T14:18:06.309341 #71448] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2014-04-21T14:18:06.309377 #71448] DEBUG -- : response-header: content-encoding => gzip
+D, [2014-04-21T14:18:06.309455 #71448] DEBUG -- : response-header: keep-alive => timeout=15, max=94
+D, [2014-04-21T14:18:06.309488 #71448] DEBUG -- : response-header: connection => Keep-Alive
+D, [2014-04-21T14:18:06.309519 #71448] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2014-04-21T14:18:06.309550 #71448] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2014-04-21T14:18:06.309650 #71448] DEBUG -- : Read 1162 bytes (1162 total)
+D, [2014-04-21T14:18:06.309718 #71448] DEBUG -- : Read 47 bytes (1209 total)
+D, [2014-04-21T14:18:06.309770 #71448] DEBUG -- : Read 76 bytes (1285 total)
+D, [2014-04-21T14:18:06.309826 #71448] DEBUG -- : Read 519 bytes (1804 total)
+D, [2014-04-21T14:18:06.309886 #71448] DEBUG -- : Read 165 bytes (1969 total)
+D, [2014-04-21T14:18:06.311750 #71448] DEBUG -- : Read 405 bytes (2374 total)
+D, [2014-04-21T14:18:06.312238 #71448] DEBUG -- : Read 249 bytes (2623 total)
+D, [2014-04-21T14:18:06.312393 #71448] DEBUG -- : Read 76 bytes (2699 total)
+D, [2014-04-21T14:18:06.312518 #71448] DEBUG -- : Read 834 bytes (3533 total)
+D, [2014-04-21T14:18:06.312926 #71448] DEBUG -- : Read 12 bytes (3545 total)
+D, [2014-04-21T14:18:06.313004 #71448] DEBUG -- : Read 571 bytes (4116 total)
+D, [2014-04-21T14:18:06.313056 #71448] DEBUG -- : Read 9 bytes (4125 total)
+D, [2014-04-21T14:18:06.313291 #71448] DEBUG -- : Read 310 bytes (4435 total)
+D, [2014-04-21T14:18:06.314557 #71448] DEBUG -- : Read 247 bytes (4682 total)
+D, [2014-04-21T14:18:06.314679 #71448] DEBUG -- : Read 101 bytes (4783 total)
+D, [2014-04-21T14:18:06.314823 #71448] DEBUG -- : Read 214 bytes (4997 total)
+D, [2014-04-21T14:18:06.314880 #71448] DEBUG -- : Read 106 bytes (5103 total)
+D, [2014-04-21T14:18:06.316952 #71448] DEBUG -- : Read 196 bytes (5299 total)
+D, [2014-04-21T14:18:06.317119 #71448] DEBUG -- : Read 87 bytes (5386 total)
+D, [2014-04-21T14:18:06.317691 #71448] DEBUG -- : Read 145 bytes (5531 total)
+D, [2014-04-21T14:18:06.317762 #71448] DEBUG -- : Read 138 bytes (5669 total)
+D, [2014-04-21T14:18:06.319087 #71448] DEBUG -- : Read 155 bytes (5824 total)
+D, [2014-04-21T14:18:06.319169 #71448] DEBUG -- : Read 30 bytes (5854 total)
+D, [2014-04-21T14:18:06.319279 #71448] DEBUG -- : Read 113 bytes (5967 total)
+D, [2014-04-21T14:18:06.319702 #71448] DEBUG -- : Read 99 bytes (6066 total)
+D, [2014-04-21T14:18:06.320277 #71448] DEBUG -- : Read 181 bytes (6247 total)
+D, [2014-04-21T14:18:06.321177 #71448] DEBUG -- : Read 81 bytes (6328 total)
+D, [2014-04-21T14:18:06.321425 #71448] DEBUG -- : Read 189 bytes (6517 total)
+D, [2014-04-21T14:18:06.321956 #71448] DEBUG -- : Read 121 bytes (6638 total)
+D, [2014-04-21T14:18:06.322014 #71448] DEBUG -- : Read 97 bytes (6735 total)
+D, [2014-04-21T14:18:06.322724 #71448] DEBUG -- : Read 67 bytes (6802 total)
+D, [2014-04-21T14:18:06.322773 #71448] DEBUG -- : Read 60 bytes (6862 total)
+D, [2014-04-21T14:18:06.323389 #71448] DEBUG -- : Read 107 bytes (6969 total)
+D, [2014-04-21T14:18:06.323438 #71448] DEBUG -- : Read 118 bytes (7087 total)
+D, [2014-04-21T14:18:06.323910 #71448] DEBUG -- : Read 141 bytes (7228 total)
+D, [2014-04-21T14:18:06.324740 #71448] DEBUG -- : Read 136 bytes (7364 total)
+D, [2014-04-21T14:18:06.325037 #71448] DEBUG -- : Read 81 bytes (7445 total)
+D, [2014-04-21T14:18:06.325084 #71448] DEBUG -- : Read 135 bytes (7580 total)
+D, [2014-04-21T14:18:06.325360 #71448] DEBUG -- : Read 80 bytes (7660 total)
+D, [2014-04-21T14:18:06.325893 #71448] DEBUG -- : Read 111 bytes (7771 total)
+D, [2014-04-21T14:18:06.326598 #71448] DEBUG -- : Read 94 bytes (7865 total)
+D, [2014-04-21T14:18:06.327776 #71448] DEBUG -- : Read 79 bytes (7944 total)
+D, [2014-04-21T14:18:06.328464 #71448] DEBUG -- : Read 525 bytes (8469 total)
+D, [2014-04-21T14:18:06.330816 #71448] DEBUG -- : Read 564 bytes (9033 total)
+D, [2014-04-21T14:18:06.330940 #71448] DEBUG -- : Read 118 bytes (9151 total)
+D, [2014-04-21T14:18:06.331011 #71448] DEBUG -- : Read 116 bytes (9267 total)
+D, [2014-04-21T14:18:06.331071 #71448] DEBUG -- : Read 10 bytes (9277 total)
+D, [2014-04-21T14:18:06.331257 #71448] DEBUG -- : gzip response
